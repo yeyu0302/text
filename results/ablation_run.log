@@ -1,0 +1,94 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspace/text/src/run_ablation.py", line 8, in <module>
+    run(name,family)
+  File "/workspace/text/src/train.py", line 142, in run
+    rows.append(dict(fold=f,runtime_seconds=elapsed,features=a.shape[1],**metrics(y[val],q[:len(val)])))
+                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/text/src/evaluation.py", line 13, in metrics
+    **{f'recall_{k+1}': v for k, v in enumerate(recall_score(y, pred, labels=[0, 1, 2]))})
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/text-research/lib/python3.12/site-packages/sklearn/utils/_param_validation.py", line 218, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/text-research/lib/python3.12/site-packages/sklearn/metrics/_classification.py", line 2706, in recall_score
+    _, r, _, _ = precision_recall_fscore_support(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/text-research/lib/python3.12/site-packages/sklearn/utils/_param_validation.py", line 191, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/text-research/lib/python3.12/site-packages/sklearn/metrics/_classification.py", line 1996, in precision_recall_fscore_support
+    labels = _check_set_wise_labels(y_true, y_pred, average, labels, pos_label)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/text-research/lib/python3.12/site-packages/sklearn/metrics/_classification.py", line 1779, in _check_set_wise_labels
+    raise ValueError(
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+B00_all_raw fold 0 BA 0.640602 seconds 28.4
+B00_all_raw fold 1 BA 0.642731 seconds 25.9
+B00_all_raw fold 2 BA 0.630027 seconds 61.2
+B00_all_raw fold 3 BA 0.63465 seconds 56.0
+B00_all_raw fold 4 BA 0.654111 seconds 48.9
+DONE B00_all_raw 0.6404228794558526
+B01_selected fold 0 BA 0.644294 seconds 8.3
+B01_selected fold 1 BA 0.653232 seconds 9.7
+B01_selected fold 2 BA 0.638005 seconds 7.1
+B01_selected fold 3 BA 0.655273 seconds 6.4
+B01_selected fold 4 BA 0.655672 seconds 7.3
+DONE B01_selected 0.6492930028125795
+B02_proxy fold 0 BA 0.64449 seconds 9.2
+B02_proxy fold 1 BA 0.660034 seconds 9.8
+B02_proxy fold 2 BA 0.634897 seconds 10.3
+B02_proxy fold 3 BA 0.6508 seconds 11.2
+B02_proxy fold 4 BA 0.658782 seconds 20.6
+DONE B02_proxy 0.6497988196464834
+B03_hierarchy fold 0 BA 0.663926 seconds 13.1
+B03_hierarchy fold 1 BA 0.677715 seconds 13.6
+B03_hierarchy fold 2 BA 0.673426 seconds 11.6
+B03_hierarchy fold 3 BA 0.676095 seconds 13.5
+B03_hierarchy fold 4 BA 0.669488 seconds 12.8
+DONE B03_hierarchy 0.6721258534456732
+B04_combined fold 0 BA 0.66043 seconds 13.3
+B04_combined fold 1 BA 0.670136 seconds 15.8
+B04_combined fold 2 BA 0.677703 seconds 12.8
+B04_combined fold 3 BA 0.685434 seconds 12.2
+B04_combined fold 4 BA 0.669292 seconds 12.4
+DONE B04_combined 0.6725922438294525
+B05_structural fold 0 BA 0.665483 seconds 18.8
+B05_structural fold 1 BA 0.672661 seconds 20.2
+B05_structural fold 2 BA 0.677897 seconds 17.8
+B05_structural fold 3 BA 0.68135 seconds 13.0
+B05_structural fold 4 BA 0.671237 seconds 14.5
+DONE B05_structural 0.6737201961177267
+B06_groups fold 0 BA 0.675786 seconds 18.4
+B06_groups fold 1 BA 0.676544 seconds 17.1
+B06_groups fold 2 BA 0.674983 seconds 31.1
+B06_groups fold 3 BA 0.689134 seconds 24.5
+B06_groups fold 4 BA 0.667932 seconds 46.2
+DONE B06_groups 0.6768718513534698
+B07_full fold 0 BA 0.667035 seconds 34.1
+B07_full fold 1 BA 0.668194 seconds 23.8
+B07_full fold 2 BA 0.671871 seconds 21.2
+B07_full fold 3 BA 0.680375 seconds 24.2
+B07_full fold 4 BA 0.669684 seconds 23.1
+DONE B07_full 0.671425900026632
+A01_nested_legacy_hist fold 0 BA 0.65906 seconds 6.7
+A01_nested_legacy_hist fold 1 BA 0.6748 seconds 7.0
+A01_nested_legacy_hist fold 2 BA 0.678099 seconds 7.1
+A01_nested_legacy_hist fold 3 BA 0.679598 seconds 7.2
+A01_nested_legacy_hist fold 4 BA 0.667735 seconds 6.8
+DONE A01_nested_legacy_hist 0.6718543165081384
+A02_nested_legacy_spline fold 0 BA 0.664341 seconds 1.8
+A02_nested_legacy_spline fold 1 BA 0.671331 seconds 2.1
+A02_nested_legacy_spline fold 2 BA 0.668374 seconds 2.0
+A02_nested_legacy_spline fold 3 BA 0.679588 seconds 2.3
+A02_nested_legacy_spline fold 4 BA 0.663644 seconds 2.3
+DONE A02_nested_legacy_spline 0.6694499521833969
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspace/text/src/run_ablation.py", line 11, in <module>
+  File "/workspace/text/src/train.py", line 120, in run
+    raise RuntimeError('Logistic regression did not converge; increase the explicit iteration budget')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Existing experiment C00_full_lgb has a different configuration

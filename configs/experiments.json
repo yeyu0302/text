@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "threads": 4,
+  "spline_standard": {"C": 0.02857142857142857, "max_iter": 1000, "tol": 0.000001},
+  "xgb": {"n_estimators": 800, "learning_rate": 0.03, "max_depth": 6, "min_child_weight": 16, "subsample": 0.85, "colsample_bytree": 0.65, "gamma": 1.2, "reg_alpha": 1.5, "reg_lambda": 5.0, "objective": "multi:softprob", "num_class": 3, "tree_method": "hist", "eval_metric": "mlogloss", "n_jobs": 4},
+  "lgb": {"n_estimators": 800, "learning_rate": 0.03, "num_leaves": 31, "max_depth": 6, "min_child_samples": 35, "subsample": 0.85, "subsample_freq": 1, "colsample_bytree": 0.65, "reg_alpha": 1.5, "reg_lambda": 5.0, "objective": "multiclass", "verbosity": -1, "n_jobs": 4},
+  "cat": {"iterations": 800, "learning_rate": 0.04, "depth": 6, "l2_leaf_reg": 6.0, "loss_function": "MultiClass", "verbose": false, "thread_count": 4, "allow_writing_files": false},
+  "early_stopping": "Disabled: fixed a priori tree budgets; outer validation labels never enter model fitting.",
+  "feature_families": {"all_raw": "All 238 original predictors; no id", "selected": "Prior supplied 52-feature hypothesis, raw", "proxy": "Selected plus row-local repair and proxy means", "hierarchy": "Selected plus nested hierarchical encoding, no repair", "combined": "Proxy plus hierarchical encoding", "structural": "Combined plus structural ratios and conditional imputation", "groups": "Structural plus train-only group context", "full": "Groups plus group-material target interactions"},
+  "hypotheses": {"all_raw": "Reference all-feature XGBoost with available recommended parameters; historical best_params.json unavailable", "selected": "Audit proposed noise pruning without new supervised selection", "proxy": "Proxy denoising adds signal beyond raw variables", "hierarchy": "Nominal hierarchical groups add information beyond numeric IDs", "combined": "Repair and hierarchy complement each other", "structural": "Ratios and vulnerability hypotheses add value", "groups": "Fold-local regional context adds value", "full": "Cross-fitted group-material interactions add value"}
+}

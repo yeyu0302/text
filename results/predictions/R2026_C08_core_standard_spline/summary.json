@@ -1,0 +1,39 @@
+{
+  "name": "R2026_C08_core_standard_spline",
+  "family": "core",
+  "model": "spline_standard",
+  "seed": 2026,
+  "params": {
+    "C": 0.02857142857142857,
+    "max_iter": 1000,
+    "tol": 1e-06
+  },
+  "smoothing": 1.0,
+  "aggregate": "mean",
+  "raw_mode": "both",
+  "native": false,
+  "code_hash": "a135ded7144f62c4a3832d6214b020c8831f2e2602ae3be01a4145e6313c4601",
+  "balanced_accuracy": 0.6748483663072417,
+  "accuracy": 0.6754,
+  "macro_f1": 0.6446480563715221,
+  "log_loss": 0.7347348180697681,
+  "recall_1": 0.7390289449112979,
+  "recall_2": 0.5766627771295216,
+  "recall_3": 0.7088533768809052,
+  "fold_std": 0.0054083000451392105,
+  "runtime_seconds": 35.82732753399978,
+  "features_min": 55,
+  "features_max": 55,
+  "hypothesis": "Compare model, regularization or encoding design",
+  "status": "complete",
+  "validation": "nested fold-local; fixed tree budgets; no outer early stopping",
+  "raw_metrics": {
+    "balanced_accuracy": 0.6465077308861454,
+    "accuracy": 0.7056,
+    "macro_f1": 0.654357084843722,
+    "log_loss": 0.6565370234995914,
+    "recall_1": 0.607376283846872,
+    "recall_2": 0.4984830805134189,
+    "recall_3": 0.8336638282981453
+  }
+}

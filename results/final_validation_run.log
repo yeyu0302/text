@@ -1,0 +1,35 @@
+R2026_C01_full_cat fold 0 BA 0.665283 seconds 32.0
+R2026_C01_full_cat fold 1 BA 0.670118 seconds 36.9
+R2026_C01_full_cat fold 2 BA 0.684315 seconds 30.8
+R2026_C01_full_cat fold 3 BA 0.679203 seconds 29.2
+R2026_C01_full_cat fold 4 BA 0.681939 seconds 47.6
+DONE R2026_C01_full_cat 0.6761721248036877
+R2026_B06_groups fold 0 BA 0.665085 seconds 17.8
+R2026_B06_groups fold 1 BA 0.665068 seconds 12.7
+R2026_B06_groups fold 2 BA 0.677118 seconds 11.1
+R2026_B06_groups fold 3 BA 0.671032 seconds 11.8
+R2026_B06_groups fold 4 BA 0.675905 seconds 12.9
+DONE R2026_B06_groups 0.6708427554105342
+R2026_baseline_hierarchy fold 0 BA 0.660426 seconds 10.3
+R2026_baseline_hierarchy fold 1 BA 0.65963 seconds 22.3
+R2026_baseline_hierarchy fold 2 BA 0.683344 seconds 20.2
+R2026_baseline_hierarchy fold 3 BA 0.66869 seconds 14.6
+R2026_baseline_hierarchy fold 4 BA 0.671624 seconds 8.7
+DONE R2026_baseline_hierarchy 0.6687417786796099
+F00 fold 0 weights [1. 0.] multipliers [1.   0.85 1.15]
+F00 fold 1 weights [0.25 0.75] multipliers [1.   0.85 0.85]
+F00 fold 2 weights [0.75 0.25] multipliers [1.   0.85 1.15]
+F00 fold 3 weights [0.5 0.5] multipliers [1.   0.85 0.85]
+F00 fold 4 weights [0.75 0.25] multipliers [1. 1. 1.]
+     method  balanced_accuracy  accuracy  macro_f1  log_loss  recall_1  recall_2  recall_3
+      plain           0.656585  0.705600  0.662535  0.654036  0.607376  0.558926  0.803453
+      prior           0.678820  0.668067  0.646877  0.739234  0.730159  0.639440  0.666861
+multipliers           0.678702  0.671533  0.645059  0.734433  0.750233  0.596499  0.689374
+   weighted           0.678041  0.670200  0.646475  0.735442  0.732960  0.623104  0.678059
+       rank           0.668838  0.630333  0.606801  0.854815  0.827731  0.565228  0.613554
+      stack           0.678312  0.673733  0.646785  0.727041  0.742764  0.597666  0.694506
+{"method": "prior", "selection_seed": 42, "independent_confirmation_seed": 2026, "selected_score": 0.6788199040931119, "rule": "Use a fitted decision/ensemble method only if it beats both fixed averaging and the frozen single-model leader by >=0.002 BA on development seed. Otherwise use the fixed-model retention rule.", "needs_independent_calibration_run": false}
+Full-data refit C01_full_cat {'model': 'C01_full_cat', 'train_rows': 15000, 'features': 221, 'runtime_seconds': 29.70192728999973}
+Full-data refit C07_core_spline {'model': 'C07_core_spline', 'train_rows': 15000, 'features': 55, 'runtime_seconds': 5.0040113749996635}
+Submissions validated [{"seed": 42, "balanced_accuracy": 0.6788199040931119, "accuracy": 0.6680666666666667, "macro_f1": 0.6468774886208913, "log_loss": 0.7392337320196254, "recall_1": 0.7301587301587301, "recall_2": 0.6394399066511085, "recall_3": 0.6668610754694972}, {"seed": 2026, "balanced_accuracy": 0.676641500105735, "accuracy": 0.6668, "macro_f1": 0.6454068940488381, "log_loss": 0.7375475948738627, "recall_1": 0.7292250233426704, "recall_2": 0.6322053675612602, "recall_3": 0.6684941094132743}]
+Reports generated; validated submissions and original-vs-corrected metrics

@@ -1,0 +1,3 @@
+attempt,status,issue,resolution,runtime_seconds,scientific_score
+initial_B00_instrumentation,resolved,Multiclass recall metric needed average=None,"Metric corrected, regression test added, full B00 rerun completed",,
+redundant_comparator_scheduler_call,resolved,An older running scheduler attempted an already completed comparator with a different thread setting,Cache refused overwrite; completed comparator retained; comparator scheduling separated from ablations,,

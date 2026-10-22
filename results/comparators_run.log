@@ -1,0 +1,18 @@
+C00_full_lgb fold 0 BA 0.66179 seconds 50.7
+C00_full_lgb fold 1 BA 0.677918 seconds 53.0
+C00_full_lgb fold 2 BA 0.67361 seconds 54.2
+C00_full_lgb fold 3 BA 0.677647 seconds 48.2
+C00_full_lgb fold 4 BA 0.66014 seconds 48.9
+DONE C00_full_lgb 0.6702166990682333
+C01_full_cat fold 0 BA 0.671504 seconds 103.1
+C01_full_cat fold 1 BA 0.68063 seconds 105.4
+C01_full_cat fold 2 BA 0.680628 seconds 109.6
+C01_full_cat fold 3 BA 0.682128 seconds 122.3
+C01_full_cat fold 4 BA 0.673377 seconds 96.9
+DONE C01_full_cat 0.6776505029289054
+C02_full_logistic fold 0 BA 0.661791 seconds 5.0
+C02_full_logistic fold 1 BA 0.679852 seconds 6.9
+C02_full_logistic fold 2 BA 0.671475 seconds 5.3
+C02_full_logistic fold 3 BA 0.680771 seconds 5.3
+C02_full_logistic fold 4 BA 0.679605 seconds 5.3
+DONE C02_full_logistic 0.6746914688907765

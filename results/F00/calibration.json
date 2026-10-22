@@ -1,0 +1,93 @@
+{
+  "models": [
+    "C01_full_cat",
+    "C07_core_spline"
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "calibration_rows": 3000,
+      "fit_rows": 8999,
+      "weights": [
+        1.0,
+        0.0
+      ],
+      "multipliers": [
+        1.0,
+        0.85,
+        1.15
+      ],
+      "stacking_C": 0.01,
+      "calibration_seed": 800
+    },
+    {
+      "fold": 1,
+      "calibration_rows": 3000,
+      "fit_rows": 8999,
+      "weights": [
+        0.25,
+        0.75
+      ],
+      "multipliers": [
+        1.0,
+        0.85,
+        0.85
+      ],
+      "stacking_C": 0.01,
+      "calibration_seed": 801
+    },
+    {
+      "fold": 2,
+      "calibration_rows": 3000,
+      "fit_rows": 9000,
+      "weights": [
+        0.75,
+        0.25
+      ],
+      "multipliers": [
+        1.0,
+        0.85,
+        1.15
+      ],
+      "stacking_C": 0.01,
+      "calibration_seed": 802
+    },
+    {
+      "fold": 3,
+      "calibration_rows": 3001,
+      "fit_rows": 9000,
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "multipliers": [
+        1.0,
+        0.85,
+        0.85
+      ],
+      "stacking_C": 0.01,
+      "calibration_seed": 803
+    },
+    {
+      "fold": 4,
+      "calibration_rows": 3001,
+      "fit_rows": 9000,
+      "weights": [
+        0.75,
+        0.25
+      ],
+      "multipliers": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "stacking_C": 0.01,
+      "calibration_seed": 804
+    }
+  ],
+  "runtime_seconds": 162.91097904400021,
+  "cv_seed": 42,
+  "code_hash": "2b49b008efc91bfc5bdbfa7f80ce4584e0a0f4f8b9e741735af96625ab4fffd7",
+  "auxiliary_model_threads": 4,
+  "test_blending": "Average five independent outer calibration rules applied to fold-mean test probabilities"
+}

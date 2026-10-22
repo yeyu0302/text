@@ -1,0 +1,6 @@
+      leader        complement  balanced_accuracy  accuracy  macro_f1  log_loss  recall_1  recall_2  recall_3
+C01_full_cat   C07_core_spline           0.678820  0.668067  0.646877  0.739234  0.730159  0.639440  0.666861
+C01_full_cat        B06_groups           0.677689  0.674400  0.646389  0.720640  0.746032  0.586698  0.700338
+C01_full_cat C02_full_logistic           0.676637  0.678133  0.648326  0.725028  0.732493  0.587631  0.709787
+C01_full_cat     C06_core_hist           0.675823  0.671667  0.643569  0.723271  0.744164  0.587865  0.695439
+C01_full_cat      C00_full_lgb           0.672708  0.675400  0.645687  0.716996  0.728291  0.579930  0.709903

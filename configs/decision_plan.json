@@ -1,0 +1,8 @@
+{
+  "method": "prior",
+  "selection_seed": 42,
+  "independent_confirmation_seed": 2026,
+  "selected_score": 0.6788199040931119,
+  "rule": "Use a fitted decision/ensemble method only if it beats both fixed averaging and the frozen single-model leader by >=0.002 BA on development seed. Otherwise use the fixed-model retention rule.",
+  "needs_independent_calibration_run": false
+}

@@ -1,0 +1,42 @@
+C10_xgb_less_shrinkage fold 0 BA 0.670735 seconds 15.5
+C10_xgb_less_shrinkage fold 1 BA 0.676937 seconds 15.5
+C10_xgb_less_shrinkage fold 2 BA 0.67712 seconds 17.1
+C10_xgb_less_shrinkage fold 3 BA 0.685244 seconds 14.9
+C10_xgb_less_shrinkage fold 4 BA 0.665594 seconds 18.0
+DONE C10_xgb_less_shrinkage 0.6751207834365
+C11_xgb_deeper fold 0 BA 0.667623 seconds 22.3
+C11_xgb_deeper fold 1 BA 0.676162 seconds 23.6
+C11_xgb_deeper fold 2 BA 0.680033 seconds 23.0
+C11_xgb_deeper fold 3 BA 0.680375 seconds 24.8
+C11_xgb_deeper fold 4 BA 0.669095 seconds 21.3
+DONE C11_xgb_deeper 0.674651597733695
+D00_median fold 0 BA 0.668394 seconds 25.2
+D00_median fold 1 BA 0.676164 seconds 18.5
+D00_median fold 2 BA 0.677122 seconds 18.3
+D00_median fold 3 BA 0.679796 seconds 20.7
+D00_median fold 4 BA 0.667156 seconds 18.3
+DONE D00_median 0.6737207498388466
+D01_trimmed fold 0 BA 0.668197 seconds 18.7
+D01_trimmed fold 1 BA 0.673246 seconds 19.3
+D01_trimmed fold 2 BA 0.677319 seconds 19.5
+D01_trimmed fold 3 BA 0.674349 seconds 19.8
+D01_trimmed fold 4 BA 0.669682 seconds 19.5
+DONE D01_trimmed 0.672554215420098
+D02_repaired_only fold 0 BA 0.670536 seconds 15.3
+D02_repaired_only fold 1 BA 0.672662 seconds 27.8
+D02_repaired_only fold 2 BA 0.670122 seconds 15.4
+D02_repaired_only fold 3 BA 0.684851 seconds 15.3
+D02_repaired_only fold 4 BA 0.67085 seconds 16.7
+DONE D02_repaired_only 0.6737986857221562
+D03_smooth_weak fold 0 BA 0.667624 seconds 13.6
+D03_smooth_weak fold 1 BA 0.678294 seconds 23.3
+D03_smooth_weak fold 2 BA 0.67109 seconds 13.7
+D03_smooth_weak fold 3 BA 0.686216 seconds 12.9
+D03_smooth_weak fold 4 BA 0.673963 seconds 15.8
+DONE D03_smooth_weak 0.6754327360935891
+D04_smooth_strong fold 0 BA 0.672285 seconds 14.3
+D04_smooth_strong fold 1 BA 0.67013 seconds 14.4
+D04_smooth_strong fold 2 BA 0.677699 seconds 14.6
+D04_smooth_strong fold 3 BA 0.686994 seconds 23.3
+D04_smooth_strong fold 4 BA 0.667933 seconds 23.4
+DONE D04_smooth_strong 0.6750045830523869
