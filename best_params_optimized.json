@@ -1,0 +1,41 @@
+{
+  "model": "XGBClassifier + LightGBM + CatBoost + SplineSoftmax Ensemble (on Denoised & Hierarchical Target-Encoded Features)",
+  "cv_folds": 5,
+  "previous_baseline_cv_score": 0.6549307994827564,
+  "previous_best_cv_score": 0.6563644634873977,
+  "new_optimized_cv_score": 0.6787412854030501,
+  "new_simulated_1to1to1_test_score": 0.6797254901960784,
+  "selected_real_features": {
+    "categorical_8": ["roofing_kind", "terrain_slope", "f_13", "f_45", "f_62", "f_69", "f_105", "f_209"],
+    "geographic_hierarchy_3": ["f_90", "f_109", "f_141"],
+    "core_discrete_5": ["structure_age", "storey_count", "footprint_area", "f_165", "f_119"],
+    "proxy_copies_21": {
+      "structure_age_proxies": ["f_168", "f_210", "f_65", "f_118", "f_108", "f_76", "f_64", "f_231"],
+      "storey_count_proxies": ["f_167", "f_115", "f_58", "f_163", "f_96", "f_170"],
+      "footprint_area_proxies": ["f_41", "f_106", "f_194"],
+      "f_165_height_proxies": ["f_186", "f_151", "f_20", "f_80"]
+    },
+    "binary_flags_15": ["f_182", "f_214", "f_199", "f_103", "f_113", "f_124", "f_175", "f_23", "f_104", "f_226", "f_1", "f_75", "f_26", "f_127", "f_48"]
+  },
+  "xgboost_recommended_params_after_denoising": {
+    "n_estimators": 800,
+    "learning_rate": 0.03,
+    "max_depth": 6,
+    "min_child_weight": 16,
+    "subsample": 0.85,
+    "colsample_bytree": 0.65,
+    "gamma": 1.2,
+    "reg_alpha": 1.5,
+    "reg_lambda": 5.0,
+    "objective": "multi:softprob",
+    "num_class": 3,
+    "tree_method": "hist",
+    "eval_metric": "mlogloss",
+    "early_stopping_rounds": 50
+  },
+  "post_processing": {
+    "prior_exponent": 1.0,
+    "class_multipliers": [1.0, 0.89, 1.15],
+    "exact_cardinality_test_target": [1700, 1700, 1700]
+  }
+}
