@@ -1,0 +1,24 @@
+C03_native_cat fold 0 BA 0.667036 seconds 110.7
+C03_native_cat fold 1 BA 0.68043 seconds 115.4
+C03_native_cat fold 2 BA 0.682183 seconds 116.5
+C03_native_cat fold 3 BA 0.683299 seconds 116.7
+C03_native_cat fold 4 BA 0.664816 seconds 124.3
+DONE C03_native_cat 0.6755502618211825
+C05_core_xgb fold 0 BA 0.668588 seconds 11.2
+C05_core_xgb fold 1 BA 0.670523 seconds 12.0
+C05_core_xgb fold 2 BA 0.675184 seconds 12.1
+C05_core_xgb fold 3 BA 0.683492 seconds 11.9
+C05_core_xgb fold 4 BA 0.672601 seconds 12.0
+DONE C05_core_xgb 0.6740720107097076
+C06_core_hist fold 0 BA 0.667224 seconds 13.8
+C06_core_hist fold 1 BA 0.674214 seconds 12.4
+C06_core_hist fold 2 BA 0.671095 seconds 11.7
+C06_core_hist fold 3 BA 0.674151 seconds 12.1
+C06_core_hist fold 4 BA 0.669876 seconds 13.0
+DONE C06_core_hist 0.671311006414534
+C07_core_spline fold 0 BA 0.667833 seconds 4.3
+C07_core_spline fold 1 BA 0.68123 seconds 5.2
+C07_core_spline fold 2 BA 0.673036 seconds 6.0
+C07_core_spline fold 3 BA 0.680561 seconds 4.7
+C07_core_spline fold 4 BA 0.671812 seconds 4.5
+DONE C07_core_spline 0.6748927456579032

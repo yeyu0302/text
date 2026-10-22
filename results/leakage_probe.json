@@ -1,0 +1,9 @@
+{
+  "outer_fold": 0,
+  "changed_validation_labels": 3001,
+  "legacy_training_rows_affected": 11999,
+  "legacy_feature_columns_affected": 112,
+  "legacy_maximum_absolute_change": 6.998525857925415,
+  "corrected_training_features_unchanged": true,
+  "corrected_validation_features_unchanged": true
+}

@@ -1,0 +1,3 @@
+model,train_rows,features,runtime_seconds
+C01_full_cat,15000,221,29.70192728999973
+C07_core_spline,15000,55,5.0040113749996635

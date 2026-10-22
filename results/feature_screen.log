@@ -1,0 +1,13 @@
+feature  selected_hypothesis                    test  p_value   effect  missing_rate  n_unique  exploratory_fdr_q
+  f_146                False    chi_square_cramers_v 0.011086 0.029383           0.0         7           0.054970
+  f_201                False kruskal_epsilon_squared 0.012195 0.000454           0.0     13651           0.059234
+  f_211                False kruskal_epsilon_squared 0.012827 0.000448           0.0     14573           0.061055
+  f_232                False    chi_square_cramers_v 0.013712 0.020451           0.0         3           0.063988
+  f_206                False kruskal_epsilon_squared 0.016679 0.000413           0.0     14669           0.076339
+  f_164                False kruskal_epsilon_squared 0.018543 0.000398           0.0     12883           0.083267
+    f_4                False kruskal_epsilon_squared 0.021341 0.000380           0.0     14981           0.094061
+   f_63                False kruskal_epsilon_squared 0.023197 0.000369           0.0        32           0.100379
+   f_28                False    chi_square_cramers_v 0.024756 0.022207           0.0         2           0.105215
+  f_132                False kruskal_epsilon_squared 0.026538 0.000351           0.0     14992           0.110808
+  f_133                False kruskal_epsilon_squared 0.029873 0.000335           0.0     14917           0.122582
+  f_154                False kruskal_epsilon_squared 0.033730 0.000319           0.0     14983           0.136064

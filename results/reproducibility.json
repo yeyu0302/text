@@ -1,0 +1,37 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.7.2",
+    "xgboost-cpu": "3.1.3",
+    "lightgbm": "4.6.0",
+    "catboost": "1.2.8",
+    "pytest": "8.4.2"
+  },
+  "files": {
+    "train.csv": "64fcfbd89e917e2139aa1ec338227dbc444ee9d6148f3009f024887a1f43d180",
+    "test.csv": "f1eeac3adb63abafbc3f6b760181bc1a88e39662bddaa34f0005a276a69a49e1",
+    "sample_submission.csv": "9d05e323a4cff386064cf1fd07b63f82b68595a62d6b023ea7288f405efd665b",
+    "optimize_pipeline.py": "15fc5f387bcd50ba7f112b72bda4225ae7ac02dc976f892f00d3e6538348ca88",
+    "best_params_optimized.json": "7748da0471f626f9313a9f5e900b88997b5bcb49439a6e3839f5755b327bd84a",
+    "methodology_report.md": "1b3506767a0b0fd6327b7cfe7546a86004455fef508a16720abb52f38aadc57e"
+  },
+  "train_shape": [
+    15000,
+    240
+  ],
+  "test_shape": [
+    5100,
+    239
+  ],
+  "train_counts": {
+    "1": 2142,
+    "2": 4285,
+    "3": 8573
+  },
+  "duplicate_train_feature_rows": 0,
+  "id_used_as_predictor": false,
+  "external_data_used": false
+}

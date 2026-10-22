@@ -1,0 +1,7 @@
+dataset,parent,child,parent_groups,child_groups,violating_children,unseen_test_children
+train,f_90,f_109,11,110,0,0
+train,f_109,f_141,110,945,0,0
+test,f_90,f_109,11,110,0,0
+test,f_109,f_141,110,924,0,0
+combined,f_90,f_109,11,110,0,0
+combined,f_109,f_141,110,945,0,0

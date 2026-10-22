@@ -1,0 +1,133 @@
+{
+  "models": [
+    {
+      "name": "C01_full_cat",
+      "family": "full",
+      "model": "cat",
+      "seed": 42,
+      "params": {
+        "iterations": 800,
+        "learning_rate": 0.04,
+        "depth": 6,
+        "l2_leaf_reg": 6.0,
+        "loss_function": "MultiClass",
+        "verbose": false,
+        "thread_count": 1,
+        "allow_writing_files": false
+      },
+      "smoothing": 1.0,
+      "aggregate": "mean",
+      "raw_mode": "both",
+      "native": false,
+      "code_hash": "d71dd94ea566faa1bfce89fb1cee0f2d4f63840f2deb5580e6f21dc665e04995",
+      "balanced_accuracy": 0.6776505029289054,
+      "accuracy": 0.674,
+      "macro_f1": 0.6457814828898544,
+      "log_loss": 0.7244351927089547,
+      "recall_1": 0.7450980392156863,
+      "recall_2": 0.5892648774795799,
+      "recall_3": 0.6985885920914499,
+      "fold_std": 0.004843291398750632,
+      "runtime_seconds": 537.3449496999999,
+      "features_min": 221,
+      "features_max": 221,
+      "hypothesis": "Cross-fitted group-material interactions add value",
+      "status": "complete",
+      "validation": "nested fold-local; fixed tree budgets; no outer early stopping",
+      "raw_metrics": {
+        "balanced_accuracy": 0.6513317649140251,
+        "accuracy": 0.7080666666666666,
+        "macro_f1": 0.6575492451992676,
+        "log_loss": 0.6529802791299901,
+        "recall_1": 0.6241830065359477,
+        "recall_2": 0.4935822637106184,
+        "recall_3": 0.8362300244955092
+      }
+    },
+    {
+      "name": "C07_core_spline",
+      "family": "core",
+      "model": "spline",
+      "seed": 42,
+      "params": {},
+      "smoothing": 1.0,
+      "aggregate": "mean",
+      "raw_mode": "both",
+      "native": false,
+      "code_hash": "a8f270f91acf7c5225be33c83bbd32c0a8adb4c025b66863179b4ac41594b461",
+      "balanced_accuracy": 0.6748927456579032,
+      "accuracy": 0.6607333333333333,
+      "macro_f1": 0.6433115873988445,
+      "log_loss": 0.7704969402776227,
+      "recall_1": 0.7124183006535948,
+      "recall_2": 0.668144690781797,
+      "recall_3": 0.644115245538318,
+      "fold_std": 0.005810982149885324,
+      "runtime_seconds": 24.884189275000153,
+      "features_min": 55,
+      "features_max": 55,
+      "hypothesis": "Compare model, regularization or encoding design",
+      "status": "complete",
+      "validation": "nested fold-local; fixed tree budgets; no outer early stopping",
+      "raw_metrics": {
+        "balanced_accuracy": 0.6538264568180084,
+        "accuracy": 0.6951333333333334,
+        "macro_f1": 0.6575217112090892,
+        "log_loss": 0.6696944727179229,
+        "recall_1": 0.5849673202614379,
+        "recall_2": 0.6126021003500584,
+        "recall_3": 0.7639099498425289
+      }
+    }
+  ],
+  "weights": "Equal fixed model-family weights",
+  "probability_method": "prior",
+  "decision_plan": {
+    "method": "prior",
+    "selection_seed": 42,
+    "independent_confirmation_seed": 2026,
+    "selected_score": 0.6788199040931119,
+    "rule": "Use a fitted decision/ensemble method only if it beats both fixed averaging and the frozen single-model leader by >=0.002 BA on development seed. Otherwise use the fixed-model retention rule.",
+    "needs_independent_calibration_run": false
+  },
+  "cross_seed_weights": "Equal weights across seeds 42 and 2026",
+  "ensemble_retained": true,
+  "ensemble_retention_rule": "Require +0.001 development-seed BA versus the leading model; freeze selection; report independent-seed stability without adapting",
+  "considered_models": [
+    "C01_full_cat",
+    "C07_core_spline"
+  ],
+  "decision_objective": "accuracy",
+  "counts": [
+    1700,
+    1700,
+    1700
+  ],
+  "primary": "Cross-seed fold predictions with the frozen probability recipe, exact transportation LP",
+  "alternative": "Full-data refits, equal model weights, prior correction and the same decision objective",
+  "validation": [
+    {
+      "seed": 42,
+      "balanced_accuracy": 0.6788199040931119,
+      "accuracy": 0.6680666666666667,
+      "macro_f1": 0.6468774886208913,
+      "log_loss": 0.7392337320196254,
+      "recall_1": 0.7301587301587301,
+      "recall_2": 0.6394399066511085,
+      "recall_3": 0.6668610754694972
+    },
+    {
+      "seed": 2026,
+      "balanced_accuracy": 0.676641500105735,
+      "accuracy": 0.6668,
+      "macro_f1": 0.6454068940488381,
+      "log_loss": 0.7375475948738627,
+      "recall_1": 0.7292250233426704,
+      "recall_2": 0.6322053675612602,
+      "recall_3": 0.6684941094132743
+    }
+  ],
+  "disagreement_rows": 122,
+  "kaggle_public_score_user_confirmed": 0.676,
+  "new_kaggle_score": null
+}

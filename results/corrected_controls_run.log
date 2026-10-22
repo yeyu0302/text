@@ -1,0 +1,12 @@
+A03_nested_legacy_hist_matching_rng fold 0 BA 0.664113 seconds 7.1
+A03_nested_legacy_hist_matching_rng fold 1 BA 0.6748 seconds 6.8
+A03_nested_legacy_hist_matching_rng fold 2 BA 0.675567 seconds 6.9
+A03_nested_legacy_hist_matching_rng fold 3 BA 0.676287 seconds 7.0
+A03_nested_legacy_hist_matching_rng fold 4 BA 0.668314 seconds 6.9
+DONE A03_nested_legacy_hist_matching_rng 0.6718147267273974
+A04_nested_legacy_spline_strict_prior fold 0 BA 0.664341 seconds 1.8
+A04_nested_legacy_spline_strict_prior fold 1 BA 0.671331 seconds 1.8
+A04_nested_legacy_spline_strict_prior fold 2 BA 0.668374 seconds 1.8
+A04_nested_legacy_spline_strict_prior fold 3 BA 0.679588 seconds 2.0
+A04_nested_legacy_spline_strict_prior fold 4 BA 0.663644 seconds 1.9
+DONE A04_nested_legacy_spline_strict_prior 0.6694499521833969
