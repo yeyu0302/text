@@ -1,0 +1,76 @@
+{
+  "git_commit": "8e966eef58d9164d3a4cd5e922de25f26e2014d9",
+  "working_tree_dirty": true,
+  "code_version_note": "Git commit is execution base; per-file source hashes identify newly written, possibly uncommitted research code.",
+  "dataset_hashes": {
+    "train.csv": "64fcfbd89e917e2139aa1ec338227dbc444ee9d6148f3009f024887a1f43d180",
+    "test.csv": "f1eeac3adb63abafbc3f6b760181bc1a88e39662bddaa34f0005a276a69a49e1",
+    "sample_submission.csv": "9d05e323a4cff386064cf1fd07b63f82b68595a62d6b023ea7288f405efd665b"
+  },
+  "source_hashes": {
+    "research_0680/src/extra_checks.py": "7cde281f481b286fa0195ed490d4c5db682bbd29909fc3ddb32d17b44b715c1f",
+    "research_0680/src/finalize_candidates.py": "9d937511c919ad14d196498a615a2351729ab2e1988e6f5c2fbf9cc59db3b6e9",
+    "research_0680/src/review_pairs.py": "852d3e69e4d1e99bdd89167060744e2a7e2c544f3596c9d1dccfdaa91fd5479c",
+    "research_0680/src/report_results.py": "8f0cacac652d21d881823b979a3e8b9dbf52f1c70e8a9a6860879eb396b8f7d8",
+    "research_0680/src/__init__.py": "3c4777f0e776cae201473736e9a2ff99c765ce42411fb6901bb2b34a85706ad8",
+    "research_0680/src/proxy_reconstruction.py": "5dd19cea34fca61c1d10476a6b9573cdd4b5da1890743d16a987d9f275b5f056",
+    "research_0680/src/conditional_knn.py": "b225935b26000e855f9f4faf743d05128389c19b6a1934795cbd1d213219e148",
+    "research_0680/src/additional_diagnostics.py": "8ef572c3761f7bdde3c07eda9c41cbe37f767af05839e9768acad4969096504e",
+    "research_0680/src/run_experiments.py": "29f2340e370357adb0794ea2075c771a6d607d6095c7fe01a8b0c219061d34bc",
+    "research_0680/src/controlled_outer_checks.py": "47682b038e98fc2ae50bf904582fa918e271e237032459c8273a8cc9fa69757d",
+    "research_0680/src/audit_data.py": "b21ddde7c9c2720ceeaab762c325c1b9e45949a33e8c3c548a294b42394acc57",
+    "research_0680/src/common.py": "78619c658564b59e6de558d80cd511b405021303a29c03434747f6c2ed06b84c",
+    "research_0680/src/build_proxy_features.py": "bd593e348bd4e99aa8e5279c2158b7dc9ecd6c228713784c001e9ce220eed168",
+    "research_0680/src/run_all.py": "65aa76974cd5e6672f10f36a49c8af78988a09f65b8ca18f122f6627d075fa75",
+    "research_0680/src/error_attribution.py": "f5c2e61ac5fa68c887282d3bddcda8e7e24db95d2f679ba927435bce138c54e5",
+    "research_0680/src/leakage_safe_te.py": "bd0d3f82331419a1d17e2d827ff354f5056353fec4c8824ad7e72c95216dd765",
+    "research_0680/src/build_notebook.py": "fe9a99dac0f28984c58f3371d7277d7a2b0cd039f0ca168e39d85bab662273de",
+    "research_0680/src/train_baseline.py": "160fe57fd052fbc6c693c7bd1840969335ee188a3f5476d3167421d030374151"
+  },
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.7.2",
+    "catboost": "1.2.8"
+  },
+  "protocol": {
+    "frozen_before_screen": true,
+    "outer_seeds": [
+      42,
+      2026
+    ],
+    "choices": [
+      "reference",
+      "interaction",
+      "balanced_interaction",
+      "reference+interaction",
+      "reference+balanced_interaction",
+      "interaction+balanced_interaction"
+    ],
+    "hypothesis": "Low-rank regional-severity by physical-vulnerability interactions model damage sensitivity with 48 added coefficients rather than more trees.",
+    "features": "Six centered geographic log odds (f90,f109,f141_m10; class3/class1 and class2/others) by eight physical variables; no feature or weight search",
+    "physics": [
+      "clean_age",
+      "clean_storey",
+      "slenderness",
+      "weak_masonry_score",
+      "f_182",
+      "f_214",
+      "f_199",
+      "f_119_clean"
+    ],
+    "interaction_scale": 0.25,
+    "C": 0.02857142857142857,
+    "mixture": "Equal arithmetic mean only",
+    "inner_min_gain": 0.001,
+    "gate": "Both seeds delta > 0.001 and paired 95% CI lower > 0",
+    "compute": "Two convex classifiers on a shared matrix, no spline or tree fit; stop at weak screening",
+    "history": "Sequential research; same outer data have been explored before. No independent blind test or actual Kaggle score.",
+    "backend_source_sha256": "d8b355be29a255d118ef411182a2f6b83cd7c7b5044bc9ca1ff4dd887151623f"
+  },
+  "seed": 2026,
+  "source_sha256": "3888f34d3441a5b14c2ad19f2c4ea2fd78f8626341c2242f7c7cb217f26d4466",
+  "runtime_seconds": 30.744415920984466
+}

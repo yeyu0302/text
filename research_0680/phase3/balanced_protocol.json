@@ -1,0 +1,16 @@
+{
+  "frozen_before_screen": true,
+  "outer_seeds": [42, 2026],
+  "outer_folds": 5,
+  "inner_folds": 2,
+  "inner_seed": 391,
+  "choices": ["reference", "balanced_quad", "balanced_gam", "reference+balanced_quad", "reference+balanced_gam", "balanced_quad+balanced_gam"],
+  "hypothesis": "Class-balanced fitting can improve limited-capacity boundaries compared with fitting unbalanced then dividing priors. No post-hoc threshold search.",
+  "balanced_quad": {"C": 0.02857142857142857, "class_weight": "balanced"},
+  "balanced_gam": {"C": 0.1, "n_knots": 4, "degree": 2, "class_weight": "balanced"},
+  "mixture": "Equal arithmetic mean only",
+  "inner_min_gain": 0.001,
+  "gate": "Both seeds delta > 0.001 and paired 95% CI lower > 0",
+  "compute": "Two linear convex classifiers; reuse phase3 validation runner and prior feature factory. No trees or threshold search. Stop if screening delta <= .001.",
+  "history": "Sequential research after phase1/2 and phase3 exploratory results; no independent blind validation or measured Kaggle score."
+}

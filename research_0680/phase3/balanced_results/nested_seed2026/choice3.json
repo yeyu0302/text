@@ -1,0 +1,42 @@
+{
+  "choice": "reference",
+  "trace": {
+    "means": {
+      "reference": 0.6630650243226439,
+      "balanced_quad": 0.6624322079271445,
+      "balanced_gam": 0.6559660045652007,
+      "reference+balanced_quad": 0.6621895233233757,
+      "reference+balanced_gam": 0.6595162454447601,
+      "balanced_quad+balanced_gam": 0.6598562964592609
+    },
+    "fold_scores": {
+      "reference": [
+        0.6631289502962597,
+        0.6630010983490282
+      ],
+      "balanced_quad": [
+        0.6595294817875584,
+        0.6653349340667306
+      ],
+      "balanced_gam": [
+        0.658167115260092,
+        0.6537648938703096
+      ],
+      "reference+balanced_quad": [
+        0.6608916143662701,
+        0.6634874322804812
+      ],
+      "reference+balanced_gam": [
+        0.6612814736717675,
+        0.6577510172177525
+      ],
+      "balanced_quad+balanced_gam": [
+        0.6625449495572041,
+        0.6571676433613178
+      ]
+    }
+  },
+  "train_id_sha256": "a577286d0d07501d516e6fd16a0faddd5ab7675d66f5f951ce1516b61b6c6730",
+  "validation_id_sha256": "95e07c973bcea39c4601fad4c97ef5b13f80176d3de9105050aadd2a0b1cce38",
+  "runtime_seconds": 6.1524500389932655
+}

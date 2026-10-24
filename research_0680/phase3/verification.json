@@ -1,0 +1,12 @@
+{
+  "results/42": "15000 unique rows, fold/label/hash membership valid; baseline probabilities exactly match phase1; test IDs/probabilities valid",
+  "results/2026": "15000 unique rows, fold/label/hash membership valid; baseline probabilities exactly match phase1; test IDs/probabilities valid",
+  "balanced_results/42": "15000 unique rows, fold/label/hash membership valid; baseline probabilities exactly match phase1; test IDs/probabilities valid",
+  "balanced_results/2026": "15000 unique rows, fold/label/hash membership valid; baseline probabilities exactly match phase1; test IDs/probabilities valid",
+  "interaction_results/42": "15000 unique rows, fold/label/hash membership valid; baseline probabilities exactly match phase1; test IDs/probabilities valid",
+  "interaction_results/2026": "15000 unique rows, fold/label/hash membership valid; baseline probabilities exactly match phase1; test IDs/probabilities valid",
+  "repair_results/42": "15000 unique rows, fold/label/hash membership valid; baseline probabilities exactly match phase1; test IDs/probabilities valid",
+  "repair_results/2026": "15000 unique rows, fold/label/hash membership valid; baseline probabilities exactly match phase1; test IDs/probabilities valid",
+  "original_data_and_source_unchanged": true,
+  "no_unvalidated_submission": true
+}

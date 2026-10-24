@@ -1,0 +1,11 @@
+..................                                                       [100%]
+=============================== warnings summary ===============================
+research_0680/phase2/tests/test_methods.py::test_posterior_keeps_silver_valid_main_and_is_finite_with_missing_sensors
+research_0680/phase2/tests/test_methods.py::test_posterior_keeps_silver_valid_main_and_is_finite_with_missing_sensors
+research_0680/phase2/tests/test_methods.py::test_posterior_keeps_silver_valid_main_and_is_finite_with_missing_sensors
+research_0680/phase2/tests/test_methods.py::test_posterior_keeps_silver_valid_main_and_is_finite_with_missing_sensors
+  /workspace/text/src/features.py:27: RuntimeWarning: Mean of empty slice
+    return np.nanmean(a, axis=1)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+18 passed, 4 warnings in 11.05s

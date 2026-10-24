@@ -1,0 +1,1121 @@
+{
+  "bytes": 20851631,
+  "sha256": "41b125dbd83a635d2f575971a111cf16477572aeef5e84a03f928dd3759f69ef",
+  "files": [
+    {
+      "path": "optimize_pipeline.py",
+      "bytes": 38265,
+      "sha256": "15fc5f387bcd50ba7f112b72bda4225ae7ac02dc976f892f00d3e6538348ca88"
+    },
+    {
+      "path": "research_0680/__init__.py",
+      "bytes": 58,
+      "sha256": "e4f78691b45fc8be99f5380f0be9d63cd99a67e5afaa09dd4575f382ba2034c9"
+    },
+    {
+      "path": "research_0680/configs/expected_dataset_hashes.json",
+      "bytes": 262,
+      "sha256": "2faeee2ccc53ac7253692729eb367acfc5736bae4490498258de458e76e3f72f"
+    },
+    {
+      "path": "research_0680/configs/experiments.yaml",
+      "bytes": 1310,
+      "sha256": "b06a3f7b5ec1d3f8dbd42b1dd61f2d5e21c5fe2bb77f1d42403c41124996ab11"
+    },
+    {
+      "path": "research_0680/configs/requirements.txt",
+      "bytes": 110,
+      "sha256": "7fa5a3187f1c1f5b242e9b740ac70d048fc294a864691e18878cac3fde79585c"
+    },
+    {
+      "path": "research_0680/phase2/__init__.py",
+      "bytes": 68,
+      "sha256": "40f7a8cca50901247bd982be41e542855ab0a6e90f50d41aa4f23eee51e25972"
+    },
+    {
+      "path": "research_0680/phase2/src/__init__.py",
+      "bytes": 79,
+      "sha256": "3602aebf442da8fcafd87984d74792ccfcc6b0f8a52297eac108498720241a60"
+    },
+    {
+      "path": "research_0680/phase2/src/methods.py",
+      "bytes": 10415,
+      "sha256": "6b8721b7732a4d1476122460d0ef333fbd465ed057720445ce9505c09f996222"
+    },
+    {
+      "path": "research_0680/phase3/Kaggle_Phase3_Colab.ipynb",
+      "bytes": 6405,
+      "sha256": "30c0776e9995892da420122174c1c25ec799c2246f614951d081b62d457e2c99"
+    },
+    {
+      "path": "research_0680/phase3/README.md",
+      "bytes": 2191,
+      "sha256": "e1dec3e8bb73091a406495c575b26e68dfa465888963686026a64c3e0c0b0d91"
+    },
+    {
+      "path": "research_0680/phase3/REPORT.md",
+      "bytes": 7113,
+      "sha256": "0e38df20b57caee1e976078ad67cc8ab50f2f9e0ceab32935ebdde59c5902293"
+    },
+    {
+      "path": "research_0680/phase3/__init__.py",
+      "bytes": 45,
+      "sha256": "0b4c5b62cd88cb2071a96207add8190030f2ced74d51a92f177ce826baec8ac0"
+    },
+    {
+      "path": "research_0680/phase3/all_tests.log",
+      "bytes": 845,
+      "sha256": "ca1f38b207396356201a34207c21c91d3cb51f8233240cfca43c3eb3e3bc8c17"
+    },
+    {
+      "path": "research_0680/phase3/balanced.py",
+      "bytes": 2506,
+      "sha256": "8cd1b3801126465397fee2b728967c2e5e60a85174639aa7683c9dffbc0f55eb"
+    },
+    {
+      "path": "research_0680/phase3/balanced_execution.log",
+      "bytes": 5833,
+      "sha256": "7ecac42c229bf58870ba9b55a6d6d6e47d8867e572bc5a7f5e9e2ea184e4a584"
+    },
+    {
+      "path": "research_0680/phase3/balanced_protocol.json",
+      "bytes": 1041,
+      "sha256": "2f2a60ea25eb2d165ef72f91e9f0c79d1b4f7682bbc9da7724d2af2e80431f76"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_comparison.csv",
+      "bytes": 777,
+      "sha256": "09ae535c4e6d96a2f7652db36449cf8f3f7a523a6b6398cface96c4b251208ef"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/choice0.json",
+      "bytes": 1161,
+      "sha256": "25a003682e25eef810af75cbbdc8d19776311ec3084da20e31d38f838eba2cf8"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/choice1.json",
+      "bytes": 1178,
+      "sha256": "e41d288a4f9106786338897f0eed0bf641015fc7a08a1b917a9c31ea16a4650c"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/choice2.json",
+      "bytes": 1157,
+      "sha256": "e238b1d63b079c70e1f0b94ec4da7cfba33e76b99d3c29dafc7a38b4e642b672"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/choice3.json",
+      "bytes": 1161,
+      "sha256": "037a972a0639751583abed7a3e44ba3e42682d5ff3138549e5c6e624024622bf"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/choice4.json",
+      "bytes": 1158,
+      "sha256": "e46f0f1334ed9e7a640d4279e8ab07e29427a9d04b1405686e64422a166b0edd"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/complete.json",
+      "bytes": 683,
+      "sha256": "1efa47b57731df6e555335e154c107bf25f9c35adb6529c085e1da0b4424c00c"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/confusion_matrix.csv",
+      "bytes": 76,
+      "sha256": "6e00fb5bec002fefc052f61dc7d6c3a9c94d2862ee655822702d4ff1f8f41387"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/experiment_manifest.json",
+      "bytes": 4157,
+      "sha256": "95388cb111d6a85e8ddde711570f4da3261b77f054441af40fc99389b47afe28"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/fold0.npz",
+      "bytes": 257442,
+      "sha256": "d639a4c9e3f3cd0451afdd61ad26a9939ec1631e7e82a67e1b1f7cf6d6a109b1"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/fold1.npz",
+      "bytes": 257353,
+      "sha256": "81df284cf9e10e15a4bc3bdef9d055ada5b05cf6dfb75d5391af6ce81d4769b2"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/fold2.npz",
+      "bytes": 257406,
+      "sha256": "292b55816a672280b1db7d246735cc827c451af3b989605d88645584ee0a7fe1"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/fold3.npz",
+      "bytes": 257355,
+      "sha256": "01d80098f8eae4fa6522f945d7d7aaab3c436a393cdc2eb3b8a5174e564a051f"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/fold4.npz",
+      "bytes": 257347,
+      "sha256": "46dd21082b7f37a05ae24a3231472a8f643daff8c076c0e127c506acd9969543"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/fold_metrics.csv",
+      "bytes": 1178,
+      "sha256": "fa982322d20563f0be6ada287ead0c06199398b6a74aa5926d5e34135c3fef76"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/metrics.json",
+      "bytes": 502,
+      "sha256": "5072a189af11f1f38da02a14828b1aecd6c878018de536b295e09d7edee4d74e"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/oof_predictions.csv",
+      "bytes": 1050329,
+      "sha256": "b66e96c62d3a715e3f843b1c7908d06a47b12c7a961be41862356eccac0fdaf6"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/reference_probabilities.csv",
+      "bytes": 960196,
+      "sha256": "56fc2b3e41e6067f37dd18e8d04cfb4821d1776e52d24397b9da131ed8473414"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/subgroup_metrics.csv",
+      "bytes": 28474,
+      "sha256": "75dfe89e16dda5f7fdb70a4c48cd1d04213213ca536296a6656621431a420ac1"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed2026/test_probabilities.csv",
+      "bytes": 324162,
+      "sha256": "c3de63880046d312476d9b7c4e369c4449f2893408cbb71a273ecc84c9b52a0b"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/choice0.json",
+      "bytes": 1176,
+      "sha256": "2cf1c1d4f24d38165254df73a1edf870f4edcc1e6508910bb1b906353fd5b976"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/choice1.json",
+      "bytes": 1158,
+      "sha256": "9b77018847e5af6c0ecf4895d299cbed101b938c2dc4b153a4df5f7ad3e223ba"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/choice2.json",
+      "bytes": 1156,
+      "sha256": "2d088384bd4a491a6378739f5b27c013fa16d8c4dfca5076646853b05a5108ab"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/choice3.json",
+      "bytes": 1175,
+      "sha256": "27fced28236ea304ffc66798f22a54bd78c62a4473684d6297a3ff3f4ad28e07"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/choice4.json",
+      "bytes": 1157,
+      "sha256": "a02f45484f657bddb91da6d6ece7f8378122dcc5308ee9928b0414b646b54394"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/complete.json",
+      "bytes": 678,
+      "sha256": "f71714a5679f6e67fcab656202598d522051b9948448bee6ee77f02f0ae277d2"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/confusion_matrix.csv",
+      "bytes": 76,
+      "sha256": "0e45cecbe2aa16f3639a3eda27110169ff4fb3b9bb1485d47680e6d11ab97062"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/experiment_manifest.json",
+      "bytes": 4154,
+      "sha256": "4de988429d6702cc848b269bffd780fa44ffa26dcceefda8bd8542608d6a785b"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/fold0.npz",
+      "bytes": 257360,
+      "sha256": "78112218e13cd89ca13f462cd246781191f7202c3cbc92ed0824b37e9e17cc34"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/fold1.npz",
+      "bytes": 257480,
+      "sha256": "1e52e17e6df35c3a45438df9157d199403b2da5923c4b7b74c464b714e89cf38"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/fold2.npz",
+      "bytes": 257388,
+      "sha256": "191726610ad66b46c090df40fd953a31168f79e48d31115c8cd77e4e031f767c"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/fold3.npz",
+      "bytes": 257399,
+      "sha256": "9d28063a3934451d2c544d47ebd5cbc05290479809f6bf7423b6014bf9ffea93"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/fold4.npz",
+      "bytes": 257411,
+      "sha256": "8270705c3cbf8a3cecb1687c08f17030a65afcd004f97d4d750ae5d00bf28144"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/fold_metrics.csv",
+      "bytes": 1183,
+      "sha256": "54f837c3ea088f4af700ef6661477dbc3a1aea1bbde09129493897654974ea6f"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/metrics.json",
+      "bytes": 501,
+      "sha256": "13b11d85f689d3ef1280e3df7c59a580c0b88b817a042f6261b7d677932cb7ec"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/oof_predictions.csv",
+      "bytes": 1050532,
+      "sha256": "edaffad8376d0ea630f1fa5cd0199d3a260bf298511b3fc221b2704e803d3422"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/reference_probabilities.csv",
+      "bytes": 960354,
+      "sha256": "b6b9b67cc2a10aebcdafbd6ea9982f26e50268d6d229e9380c28fee9ff299232"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/subgroup_metrics.csv",
+      "bytes": 28527,
+      "sha256": "df10a09d8bde3a4dda3e2253501da410ef3b25cbb329563e5e5b490d50c33281"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/nested_seed42/test_probabilities.csv",
+      "bytes": 324135,
+      "sha256": "4c47e4991a72f62fd75a7df9bfee4823cad6ebb718e6d8845424f2cfd81b31e1"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/screen/manifest.json",
+      "bytes": 4194,
+      "sha256": "f8a3f3fe8db8e34fb77d7f9a05542320713f432e588afe84a29e1c9a52d070b2"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/screen/probabilities.npz",
+      "bytes": 521945,
+      "sha256": "063bf331f44a6ea226ae23dab5b2939cbd3b2c44084025948f0d1037d064cd72"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/screen.csv",
+      "bytes": 2013,
+      "sha256": "3b8497d83d2fe873578702efdd5560cef2afcb0a6c31d5b5e5be57604c81ef9c"
+    },
+    {
+      "path": "research_0680/phase3/balanced_results/submission_gate.json",
+      "bytes": 1333,
+      "sha256": "91af43b10315650f1a6154f08bd9578c4dfc4982519076b950dff1b15126622a"
+    },
+    {
+      "path": "research_0680/phase3/interaction_execution.log",
+      "bytes": 5822,
+      "sha256": "557c7a40b657ee8f5272e721d84e14317329e1e8b02e444a60b26122229fb571"
+    },
+    {
+      "path": "research_0680/phase3/interaction_protocol.json",
+      "bytes": 1098,
+      "sha256": "18e9515a0ac5c88a1041f5488b6a5a34162a4410b504f3071a90ac4f2c0014aa"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_comparison.csv",
+      "bytes": 787,
+      "sha256": "4ed2218214bc8378e818d00ba48ddea904d18c2859c797b9fe8be18352cd0222"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/choice0.json",
+      "bytes": 1198,
+      "sha256": "b905a9abbfb3a0ea5db1ff02899b54c26c2725d944819534abe97e88e6bb658d"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/choice1.json",
+      "bytes": 1207,
+      "sha256": "29eccfcf8aceafb1444fff1dd2715712aac508d38037ed0b4b53507cdfbe61d3"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/choice2.json",
+      "bytes": 1194,
+      "sha256": "58b90b8cd8a500ff683a6cb6335e7513fb6fa4772e31bf750620d92eacaea2fe"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/choice3.json",
+      "bytes": 1194,
+      "sha256": "338c3807cc44e10dd129965f4ce1948d3c9f1a0b91baae261005c4b85eb2e794"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/choice4.json",
+      "bytes": 1195,
+      "sha256": "e0c5e32733634f2279e6aae83ff2df6244818f30fb38f40940ecced0540c3609"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/complete.json",
+      "bytes": 693,
+      "sha256": "9bd8ba41a1cf416024b244351ca31cee52dd9f577a88d1ee386ec5cd930a0ced"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/confusion_matrix.csv",
+      "bytes": 76,
+      "sha256": "122445812fc1f5f9356b237d56e91ecdc017a897e62abb7121f5a73bfda329a2"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/experiment_manifest.json",
+      "bytes": 4218,
+      "sha256": "6eb87f2f6a68f62241614fb16c4d63b8c9d30e07f023e5f8b7f50c397879277d"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/fold0.npz",
+      "bytes": 257389,
+      "sha256": "b17ae9dbd4bb1de34ed014d8a4c27e88e4446c8f584bac32bf8a4e605f678c59"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/fold1.npz",
+      "bytes": 257429,
+      "sha256": "93aae74fda2b3ab12276879868b6ab8724f6523faca4f75bbfb581694ffed68e"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/fold2.npz",
+      "bytes": 257406,
+      "sha256": "292b55816a672280b1db7d246735cc827c451af3b989605d88645584ee0a7fe1"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/fold3.npz",
+      "bytes": 257355,
+      "sha256": "01d80098f8eae4fa6522f945d7d7aaab3c436a393cdc2eb3b8a5174e564a051f"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/fold4.npz",
+      "bytes": 257347,
+      "sha256": "46dd21082b7f37a05ae24a3231472a8f643daff8c076c0e127c506acd9969543"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/fold_metrics.csv",
+      "bytes": 1179,
+      "sha256": "56085f87852d9f5d43dc274c64c97cf9258d69662f26b5b977e50e84b3bbcae9"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/metrics.json",
+      "bytes": 515,
+      "sha256": "ecf3cdc9df1580b52ba599deedb55ab69aa68661c51e264338ad650639206e39"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/oof_predictions.csv",
+      "bytes": 1050373,
+      "sha256": "2a0428b8cce08e2103e8bdc2efcdbddbab0ddad9150de07749a074dbdbf3b2a8"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/reference_probabilities.csv",
+      "bytes": 960196,
+      "sha256": "56fc2b3e41e6067f37dd18e8d04cfb4821d1776e52d24397b9da131ed8473414"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/subgroup_metrics.csv",
+      "bytes": 28368,
+      "sha256": "c0e2102fb13c6309630a85a1156d1558439e5e4992db1410844858d3c34562d2"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed2026/test_probabilities.csv",
+      "bytes": 324253,
+      "sha256": "03a502043d213d18e53f891cc78019125cd821ec8737ec763b842dbe28531f21"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/choice0.json",
+      "bytes": 1208,
+      "sha256": "66f320e0bcab5c5a946ba4da6163d05a3e8d80d10a82c7c6c8232c816ed53c64"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/choice1.json",
+      "bytes": 1194,
+      "sha256": "129e3cb8abb87d3542e5abaf96f18c78ab0dc9ecba1e8aa7eb7d646188b47785"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/choice2.json",
+      "bytes": 1216,
+      "sha256": "c705e1c331e807b2d73617e2ed9eaf2932ea17f66b283f4a9c9f9a18a77f1837"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/choice3.json",
+      "bytes": 1196,
+      "sha256": "f6a8f6f5a38853485f8670d0b5a97cbc15b02c4b193b28954dae1828ee8fa295"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/choice4.json",
+      "bytes": 1192,
+      "sha256": "214f71a424e60f9c1ac35f889a8a9c2d4246616002844d23d41c04f048347393"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/complete.json",
+      "bytes": 678,
+      "sha256": "35eade5ff368878aae3b040141c0285b875df24940fcb725ac9adfcb5e9750d4"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/confusion_matrix.csv",
+      "bytes": 76,
+      "sha256": "d38ca4eb4af51bbab16563441857e6ff65ef96d1fa32b60701cb2eb2cf3d818b"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/experiment_manifest.json",
+      "bytes": 4215,
+      "sha256": "edc4ad70ffe0e2a10b29779f3649e4ad87b1b221f60ef4ac32fdb395851cadea"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/fold0.npz",
+      "bytes": 257322,
+      "sha256": "91a6a3710baa82960fb08feced30457540b061dd9d77059c5229b3f433f413a4"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/fold1.npz",
+      "bytes": 257480,
+      "sha256": "1e52e17e6df35c3a45438df9157d199403b2da5923c4b7b74c464b714e89cf38"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/fold2.npz",
+      "bytes": 257347,
+      "sha256": "5b451fe0f53cd2f03a94257677a4a1d194f0d3dd0e729a8c25b284430c7944ca"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/fold3.npz",
+      "bytes": 257455,
+      "sha256": "e9fc08451276bd1be11f13bb7fba5f8afaa81fea457ecc6460f8dd92a9479cef"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/fold4.npz",
+      "bytes": 257411,
+      "sha256": "8270705c3cbf8a3cecb1687c08f17030a65afcd004f97d4d750ae5d00bf28144"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/fold_metrics.csv",
+      "bytes": 1149,
+      "sha256": "8615dcf529792f6347c0c1e2ce3735dece0f902ecc711235019c517a5d08d223"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/metrics.json",
+      "bytes": 502,
+      "sha256": "3e157fafc3c5c9b0e28c5a4ba188852a8fafed3771e2eca2b51a9e40c143dedf"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/oof_predictions.csv",
+      "bytes": 1050453,
+      "sha256": "2076f160a5c304215a6b8ba74884f08e07c0425c4132d98b0e452cfec7e3310d"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/reference_probabilities.csv",
+      "bytes": 960354,
+      "sha256": "b6b9b67cc2a10aebcdafbd6ea9982f26e50268d6d229e9380c28fee9ff299232"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/subgroup_metrics.csv",
+      "bytes": 28488,
+      "sha256": "1202e2ce6ac5902987d61fba24db9afc58d3f8bfca00c341b52b259f25eca9b9"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/nested_seed42/test_probabilities.csv",
+      "bytes": 324115,
+      "sha256": "cdeea7bd09c299a76de9b6bc8a53594e193d4bb0afb2afe44646d45464e68de5"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/screen/manifest.json",
+      "bytes": 4254,
+      "sha256": "c615d834f13f8476b4bb5941ae6b22b6b652aff5a9171de51c2d321ba88a2330"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/screen/probabilities.npz",
+      "bytes": 521971,
+      "sha256": "8af62defdac315403d423e94410d46191a7febf401be6586187402346e5ee396"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/screen.csv",
+      "bytes": 2029,
+      "sha256": "c501fb0d9cc6516676b53c85c6ad08ee442f9d5e1ef2fcaaf196d6ae2ac18abc"
+    },
+    {
+      "path": "research_0680/phase3/interaction_results/submission_gate.json",
+      "bytes": 1394,
+      "sha256": "eabc98b581590ee00aa5277852aa5a82e88aa485da4101d4ec83a65b451d5862"
+    },
+    {
+      "path": "research_0680/phase3/interactions.py",
+      "bytes": 2575,
+      "sha256": "d8b355be29a255d118ef411182a2f6b83cd7c7b5044bc9ca1ff4dd887151623f"
+    },
+    {
+      "path": "research_0680/phase3/isolation_tests.log",
+      "bytes": 98,
+      "sha256": "bf44daf36451ea38ededcf3ab18e141400920f35104b3006bd6512c1f9f32a1a"
+    },
+    {
+      "path": "research_0680/phase3/nested_comparison.csv",
+      "bytes": 2791,
+      "sha256": "1efb739e3dd9a01f0e9bab398f7f2e6709424e3c7b7b17efa116a2080b5b3ab1"
+    },
+    {
+      "path": "research_0680/phase3/protocol.json",
+      "bytes": 911,
+      "sha256": "d5852ca6169708e37304b7d2462a635286e7847fa5d390fbcbaafc8ffe60d6dc"
+    },
+    {
+      "path": "research_0680/phase3/repair.py",
+      "bytes": 1958,
+      "sha256": "0f5e4046a1f9c3f61a0d71a952ca7a8b7b3651fb1fd66509b887736b1bb1b07a"
+    },
+    {
+      "path": "research_0680/phase3/repair_execution.log",
+      "bytes": 5595,
+      "sha256": "caab9488b70f81081b591634c3f9db5484a1a83debe3345648ad7ede6022974c"
+    },
+    {
+      "path": "research_0680/phase3/repair_protocol.json",
+      "bytes": 830,
+      "sha256": "45f8d1bde208487987fa18f5b254e31c0e9305c3b3af9662370587f8676713b1"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_comparison.csv",
+      "bytes": 752,
+      "sha256": "cca2d533d5ac662f12800c81412fe3497cd93e51ad0a069fae0067b687033f3a"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/choice0.json",
+      "bytes": 694,
+      "sha256": "badc03a92e2779a397a38fdaf74829226ad6d71ff3f8f3cb4b424cb770db8c9b"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/choice1.json",
+      "bytes": 695,
+      "sha256": "daabeccd2446502282d684ba452a01723b87f82aed3a3f81d722423e9091da76"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/choice2.json",
+      "bytes": 693,
+      "sha256": "2c3effc13395b646b5f29252294fe23f684bee8b1e489ec46f91e90f186afb73"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/choice3.json",
+      "bytes": 694,
+      "sha256": "7868deac191e085df51e32a9b6d2b0f3327cd29281f16d38f07e6b4647d76217"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/choice4.json",
+      "bytes": 694,
+      "sha256": "53c1c7fd5cb58ba0995bb303487bb670628b6ec9800cd12ef33eb61950b73225"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/complete.json",
+      "bytes": 638,
+      "sha256": "f72df6b56d775e057c71f7dae92b62d5d78220a668676eb9f1c9e6baf544d0fe"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/confusion_matrix.csv",
+      "bytes": 76,
+      "sha256": "73d9f3e93e0156710df74773ed10165aa57f9f232e3f4045dd121b26e7b78b98"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/experiment_manifest.json",
+      "bytes": 3870,
+      "sha256": "591f573bc3f785d24d9b08f1011f6a7716a890bcb219d78d19c1cb57b0e86a70"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/fold0.npz",
+      "bytes": 257437,
+      "sha256": "852dffe01180760c787e74a30e5dd0cc41ee03925431d9f8f253e8982ff534cc"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/fold1.npz",
+      "bytes": 257460,
+      "sha256": "f3b81f38efd5568c65711e8399ef3bce64851befd1e7a13b05948f7c71153894"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/fold2.npz",
+      "bytes": 257406,
+      "sha256": "292b55816a672280b1db7d246735cc827c451af3b989605d88645584ee0a7fe1"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/fold3.npz",
+      "bytes": 257355,
+      "sha256": "01d80098f8eae4fa6522f945d7d7aaab3c436a393cdc2eb3b8a5174e564a051f"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/fold4.npz",
+      "bytes": 257347,
+      "sha256": "46dd21082b7f37a05ae24a3231472a8f643daff8c076c0e127c506acd9969543"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/fold_metrics.csv",
+      "bytes": 1178,
+      "sha256": "656f598def9a410ff0e6d2ccb267a72baa440129e38132d34616c39ae46d9e38"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/metrics.json",
+      "bytes": 514,
+      "sha256": "ac7b739065436d47014e14b4eb062bd12239f5ed2ad9502af7986b954074f36b"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/oof_predictions.csv",
+      "bytes": 1050212,
+      "sha256": "995f8c84b86918e78b9911592d49f8adfce9ece61bf3fc76645628d419d49ee3"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/reference_probabilities.csv",
+      "bytes": 960196,
+      "sha256": "56fc2b3e41e6067f37dd18e8d04cfb4821d1776e52d24397b9da131ed8473414"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/subgroup_metrics.csv",
+      "bytes": 28420,
+      "sha256": "3d33d128d2aa33e46462cdf72a8359d1a2ccbcdf1b1f26f034bb414ebea19629"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed2026/test_probabilities.csv",
+      "bytes": 324119,
+      "sha256": "0c6d81ce805fea689faa5e8199e2566206db77014a022a43427edf1f795f4299"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/choice0.json",
+      "bytes": 691,
+      "sha256": "aa181191190def606fc35fb0247efd0e92dd03633e5c28305f374987513bc6bf"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/choice1.json",
+      "bytes": 695,
+      "sha256": "88e269fc636fbf9576e9389f4828cafeb270a995215a513d2e078d01f92e9280"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/choice2.json",
+      "bytes": 694,
+      "sha256": "eab58d7a6310d8622e629d02235b70dda89b09f09755e41678ffb72ab86d66b9"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/choice3.json",
+      "bytes": 692,
+      "sha256": "bf18ff2bbaa9572b00846dd5705357f5c90d7217784df8c531f6fb65b769d25c"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/choice4.json",
+      "bytes": 693,
+      "sha256": "5eaa5b96fbadd15414ac6961682e7290ae103c77fc81dc48f0f1c3078057909e"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/complete.json",
+      "bytes": 698,
+      "sha256": "2a1cdd1d1e35ea0ef79b94882d5afa5a3223013cda59cf620684a3f68b24d61f"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/confusion_matrix.csv",
+      "bytes": 78,
+      "sha256": "94c1c30b32bca3057c5577c64337ef1aa4d18c6cc24ff35147118636e7775f75"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/experiment_manifest.json",
+      "bytes": 3867,
+      "sha256": "6e27fe42d37d482339082d6ad6493d948a4a06285998f25995841125e227ecf3"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/fold0.npz",
+      "bytes": 257387,
+      "sha256": "3b4a5fbe17450cd8aad5d4c0e06e8d2147e88b4640659c9108b27fc4d0db6e70"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/fold1.npz",
+      "bytes": 257480,
+      "sha256": "1e52e17e6df35c3a45438df9157d199403b2da5923c4b7b74c464b714e89cf38"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/fold2.npz",
+      "bytes": 257388,
+      "sha256": "191726610ad66b46c090df40fd953a31168f79e48d31115c8cd77e4e031f767c"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/fold3.npz",
+      "bytes": 257455,
+      "sha256": "e9fc08451276bd1be11f13bb7fba5f8afaa81fea457ecc6460f8dd92a9479cef"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/fold4.npz",
+      "bytes": 257411,
+      "sha256": "8270705c3cbf8a3cecb1687c08f17030a65afcd004f97d4d750ae5d00bf28144"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/fold_metrics.csv",
+      "bytes": 1179,
+      "sha256": "4a0da93e63c2c34f544336ea72b4eacf5681f41b521345209cb3cbf8bbb2df5e"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/metrics.json",
+      "bytes": 517,
+      "sha256": "ed0a9b5a1318bc04a01b069444ee72abc48a2857beeca159bc8b5643921db07f"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/oof_predictions.csv",
+      "bytes": 1050324,
+      "sha256": "9caf1157bcf96e7d39694cf890568af95ec60b836382162ba5c149740c6e829a"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/reference_probabilities.csv",
+      "bytes": 960354,
+      "sha256": "b6b9b67cc2a10aebcdafbd6ea9982f26e50268d6d229e9380c28fee9ff299232"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/subgroup_metrics.csv",
+      "bytes": 28585,
+      "sha256": "dd849b71274c59f0bc8b646a3f825874c0d673d8e32d60009e6478e1bf67787a"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/nested_seed42/test_probabilities.csv",
+      "bytes": 324203,
+      "sha256": "46a97959ef70e92a3032ddce8869f62d0aab06b5037a2263beba3ce2e82f675c"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/screen/manifest.json",
+      "bytes": 3907,
+      "sha256": "0f88632c8624f97bd770a086581495945a15897528119ce213e7fa695af07425"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/screen/probabilities.npz",
+      "bytes": 265991,
+      "sha256": "e812c3ad0f09f830461ad7473e25a1c29d8e3b62887993b2355bd36ed0b16d5c"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/screen.csv",
+      "bytes": 1046,
+      "sha256": "90778d248210c565f73a71ad1012e799eaa54ef458616fc72d432dbf864cda11"
+    },
+    {
+      "path": "research_0680/phase3/repair_results/submission_gate.json",
+      "bytes": 1046,
+      "sha256": "5d3dfc05782ebb602fb6a5c638b8463bd95c347cf53cd54ee3e92016230dd83a"
+    },
+    {
+      "path": "research_0680/phase3/results/execution.log",
+      "bytes": 5780,
+      "sha256": "5479f838f9e4faa00bfe3982b241263d75ea2b58503007d204484f791b7bb89b"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_comparison.csv",
+      "bytes": 801,
+      "sha256": "754a14c88296c1d63113bb372e4e8464ae945c9b87c196f87442808cbfa637aa"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/choice0.json",
+      "bytes": 1048,
+      "sha256": "b9e902b85c9b0f9c17d78ed141377e0788fe6b648ff403ee52ec95e1e3e8f706"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/choice1.json",
+      "bytes": 1050,
+      "sha256": "c412e78b42e8e9ff024a3402cc6755fdbdd15e377619a2f66f41900139f5118e"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/choice2.json",
+      "bytes": 1049,
+      "sha256": "d97d7eb298f4c1833b80c9530b3a8f477dc7c321ee5e5d741d81927eeedaa132"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/choice3.json",
+      "bytes": 1040,
+      "sha256": "8e1556b03b1411fe8b276585477b30892eb50a48874df2f5c14f67b43f4a5ec4"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/choice4.json",
+      "bytes": 1047,
+      "sha256": "fce52ef7687ef8f4071e0ae550ffbd247c2a3bf9dfbe670014103407b6ddb5a5"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/complete.json",
+      "bytes": 694,
+      "sha256": "0f106cc1cea785f794d3a9f9457643084552058cc7875d8f0651cfc9f5385f64"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/confusion_matrix.csv",
+      "bytes": 76,
+      "sha256": "8bf8badae55049527df4704a26ad96583ff7ede02cd24550cbce168a47a61694"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/experiment_manifest.json",
+      "bytes": 3942,
+      "sha256": "3d1d708ac0e825caa5aa6d6021a8ccba786f36503d3bf23e8cb1a35777197088"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/fold0.npz",
+      "bytes": 257392,
+      "sha256": "b0f958b7cf5fcf806e24d03aadb2117f4cb6ede17a3bc0c75bbfd188f2c5f07e"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/fold1.npz",
+      "bytes": 257325,
+      "sha256": "59a32402c3394d6cf2a515b49475b5af51656d2fea4fd247a9653f5db75060ce"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/fold2.npz",
+      "bytes": 257342,
+      "sha256": "bbd4f6b053a00678d4ee3458449c8ee42ea7c326a48f358454c0aaf307dca214"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/fold3.npz",
+      "bytes": 257347,
+      "sha256": "1cdd8797fca1b465a96ca0f8dddb8f68a729e00aa296582e001554634dc9f5f9"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/fold4.npz",
+      "bytes": 257295,
+      "sha256": "1dedb9ff7e0782f2f93309629271b00f1106025ddc8e503f09d0c51990e335f9"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/fold_metrics.csv",
+      "bytes": 1195,
+      "sha256": "eda67861d40d4a105fd550d9ec8d5c2f2afa7ce58524c0557700dae90d29ca7d"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/metrics.json",
+      "bytes": 515,
+      "sha256": "84e55d13a6c2325ea764dcb5cd34e21fda03c6c6676ea541a266a7336db64aa3"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/oof_predictions.csv",
+      "bytes": 1049944,
+      "sha256": "13dee1c31b51394ae048200123ccc8e1e18021f38d646ef16b5db152283e69df"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/reference_probabilities.csv",
+      "bytes": 960196,
+      "sha256": "56fc2b3e41e6067f37dd18e8d04cfb4821d1776e52d24397b9da131ed8473414"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/subgroup_metrics.csv",
+      "bytes": 28177,
+      "sha256": "b5ab739448f6128c03093d3f2a2be43d715f162210af63b55f0cd7160f99a38c"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed2026/test_probabilities.csv",
+      "bytes": 323884,
+      "sha256": "ae6a239befe419ab84933e2ae036d3ea8b9ccf6eb179b7401275eb14dc67b19b"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/choice0.json",
+      "bytes": 1048,
+      "sha256": "be6be0fe285c3e88e5152808cf1fa217d439580c07b91e044291c20c2fad884e"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/choice1.json",
+      "bytes": 1044,
+      "sha256": "b4d91245a018332d85bb02ffa0184626ed84725456be0a3e7148722f5ba44a85"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/choice2.json",
+      "bytes": 1047,
+      "sha256": "7d12fc0994eb33906df1efdd7987b07bdcf2e43be66730a2da10745afa522ff1"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/choice3.json",
+      "bytes": 1041,
+      "sha256": "a18f0bfbe812b7c68b5712f9c18eab14fa6bc9129f116fa3dcd3be0c1f74b11d"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/choice4.json",
+      "bytes": 1038,
+      "sha256": "c2ea39a60efdeae7936eab98c8bf0846ad75c5e23b320c66509449a3139eb15e"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/complete.json",
+      "bytes": 691,
+      "sha256": "3986cfaa3965265ed7fa2652e893fa22afba3cf6b5cd5ea8a0042de601615d54"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/confusion_matrix.csv",
+      "bytes": 76,
+      "sha256": "58d6ad2a1790ac2de06afc30a0b89613b4172f863a1ea5828a62f3a287016733"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/experiment_manifest.json",
+      "bytes": 3939,
+      "sha256": "948aaa59f0d0951b16a8cf25297aa70fb6182afb5fb82663f31a34d417dd996e"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/fold0.npz",
+      "bytes": 257359,
+      "sha256": "eda6009b5d3e4d5bba17acd9f396213e859cfe6d6cb8f2c6b93baa606707fa17"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/fold1.npz",
+      "bytes": 257396,
+      "sha256": "6f582768cad75bec10f92104d752a065491cb86f740aad7142010e2f223f12de"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/fold2.npz",
+      "bytes": 257327,
+      "sha256": "7b4462bcdb5944b5d46e2c9ed82dbdf15d7197103cecc1a8da45a1ef0423d260"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/fold3.npz",
+      "bytes": 257352,
+      "sha256": "eb613806b17459800f26a7412b0aa661c3f2147584119143fe26f7ea420de52d"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/fold4.npz",
+      "bytes": 257457,
+      "sha256": "594fcfb62ff8c52601c247e29537f83f457da0dab378188fc523ba576f59e503"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/fold_metrics.csv",
+      "bytes": 1192,
+      "sha256": "b688e8e2ba0efb1cff5b0050c1a47c4e273ae0f6d48438ba600cb21a67b672a5"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/metrics.json",
+      "bytes": 514,
+      "sha256": "ced9abdbc5269bbfd77b9759d170453b58ea725d44f69926c1aa9b627aefbf45"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/oof_predictions.csv",
+      "bytes": 1050326,
+      "sha256": "fd5f311789630a3cc8ebc260073fa74f73988595459dbb6446cd6b0713e15126"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/reference_probabilities.csv",
+      "bytes": 960354,
+      "sha256": "b6b9b67cc2a10aebcdafbd6ea9982f26e50268d6d229e9380c28fee9ff299232"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/subgroup_metrics.csv",
+      "bytes": 28377,
+      "sha256": "9ac3bed3f0b675b91228c127a0f459dee5cca6e54a7f0c1263d5151ab41ada8e"
+    },
+    {
+      "path": "research_0680/phase3/results/nested_seed42/test_probabilities.csv",
+      "bytes": 324043,
+      "sha256": "5a982c2f21d20ecdd8e17dbd6dda9925fc93ec924cb6e8117b9c4154641e4cb2"
+    },
+    {
+      "path": "research_0680/phase3/results/screen/manifest.json",
+      "bytes": 3979,
+      "sha256": "b86dc4d0d3765fa685df3bf7bfc7d7d55b038ff08a0a2cf017eae4536e353b3a"
+    },
+    {
+      "path": "research_0680/phase3/results/screen/probabilities.npz",
+      "bytes": 521701,
+      "sha256": "cb8622f1f9ab289e9de50faa7283d0d77b253ee903085122c808947436b858bd"
+    },
+    {
+      "path": "research_0680/phase3/results/screen.csv",
+      "bytes": 1955,
+      "sha256": "b44a854440cc9ae7457d4e3b5b355470105dca51fd05378bb34834df968e8af7"
+    },
+    {
+      "path": "research_0680/phase3/results/submission_gate.json",
+      "bytes": 1118,
+      "sha256": "795944557f8f55af5006562952ef1c1a7e9bbeafb442dd40cfb96d5792b7832b"
+    },
+    {
+      "path": "research_0680/phase3/run.py",
+      "bytes": 7049,
+      "sha256": "3888f34d3441a5b14c2ad19f2c4ea2fd78f8626341c2242f7c7cb217f26d4466"
+    },
+    {
+      "path": "research_0680/phase3/screen_comparison.csv",
+      "bytes": 6909,
+      "sha256": "83f072150a59e4f755da33f1546d9fdfc75e6221d0848f7d8ef28e07c5036614"
+    },
+    {
+      "path": "research_0680/phase3/tests/test_isolation.py",
+      "bytes": 1120,
+      "sha256": "4de48c2471fe40f2f52f786ed2257f7b234fab0bce6e0f68f84285193d971033"
+    },
+    {
+      "path": "research_0680/phase3/verification.json",
+      "bytes": 1317,
+      "sha256": "91d7f1fc0e5f0eb10b04b97f618f415c6c7068c21ce56bac5865e2ea5cf2054c"
+    },
+    {
+      "path": "research_0680/src/__init__.py",
+      "bytes": 67,
+      "sha256": "3c4777f0e776cae201473736e9a2ff99c765ce42411fb6901bb2b34a85706ad8"
+    },
+    {
+      "path": "research_0680/src/additional_diagnostics.py",
+      "bytes": 2455,
+      "sha256": "8ef572c3761f7bdde3c07eda9c41cbe37f767af05839e9768acad4969096504e"
+    },
+    {
+      "path": "research_0680/src/audit_data.py",
+      "bytes": 3235,
+      "sha256": "b21ddde7c9c2720ceeaab762c325c1b9e45949a33e8c3c548a294b42394acc57"
+    },
+    {
+      "path": "research_0680/src/build_notebook.py",
+      "bytes": 5122,
+      "sha256": "fe9a99dac0f28984c58f3371d7277d7a2b0cd039f0ca168e39d85bab662273de"
+    },
+    {
+      "path": "research_0680/src/build_proxy_features.py",
+      "bytes": 6206,
+      "sha256": "bd593e348bd4e99aa8e5279c2158b7dc9ecd6c228713784c001e9ce220eed168"
+    },
+    {
+      "path": "research_0680/src/common.py",
+      "bytes": 5637,
+      "sha256": "78619c658564b59e6de558d80cd511b405021303a29c03434747f6c2ed06b84c"
+    },
+    {
+      "path": "research_0680/src/conditional_knn.py",
+      "bytes": 4894,
+      "sha256": "b225935b26000e855f9f4faf743d05128389c19b6a1934795cbd1d213219e148"
+    },
+    {
+      "path": "research_0680/src/controlled_outer_checks.py",
+      "bytes": 517,
+      "sha256": "47682b038e98fc2ae50bf904582fa918e271e237032459c8273a8cc9fa69757d"
+    },
+    {
+      "path": "research_0680/src/error_attribution.py",
+      "bytes": 14876,
+      "sha256": "f5c2e61ac5fa68c887282d3bddcda8e7e24db95d2f679ba927435bce138c54e5"
+    },
+    {
+      "path": "research_0680/src/extra_checks.py",
+      "bytes": 4629,
+      "sha256": "7cde281f481b286fa0195ed490d4c5db682bbd29909fc3ddb32d17b44b715c1f"
+    },
+    {
+      "path": "research_0680/src/finalize_candidates.py",
+      "bytes": 3054,
+      "sha256": "9d937511c919ad14d196498a615a2351729ab2e1988e6f5c2fbf9cc59db3b6e9"
+    },
+    {
+      "path": "research_0680/src/leakage_safe_te.py",
+      "bytes": 2927,
+      "sha256": "bd0d3f82331419a1d17e2d827ff354f5056353fec4c8824ad7e72c95216dd765"
+    },
+    {
+      "path": "research_0680/src/proxy_reconstruction.py",
+      "bytes": 1353,
+      "sha256": "5dd19cea34fca61c1d10476a6b9573cdd4b5da1890743d16a987d9f275b5f056"
+    },
+    {
+      "path": "research_0680/src/report_results.py",
+      "bytes": 20702,
+      "sha256": "8f0cacac652d21d881823b979a3e8b9dbf52f1c70e8a9a6860879eb396b8f7d8"
+    },
+    {
+      "path": "research_0680/src/review_pairs.py",
+      "bytes": 1551,
+      "sha256": "852d3e69e4d1e99bdd89167060744e2a7e2c544f3596c9d1dccfdaa91fd5479c"
+    },
+    {
+      "path": "research_0680/src/run_all.py",
+      "bytes": 1653,
+      "sha256": "65aa76974cd5e6672f10f36a49c8af78988a09f65b8ca18f122f6627d075fa75"
+    },
+    {
+      "path": "research_0680/src/run_experiments.py",
+      "bytes": 9029,
+      "sha256": "29f2340e370357adb0794ea2075c771a6d607d6095c7fe01a8b0c219061d34bc"
+    },
+    {
+      "path": "research_0680/src/train_baseline.py",
+      "bytes": 8663,
+      "sha256": "160fe57fd052fbc6c693c7bd1840969335ee188a3f5476d3167421d030374151"
+    },
+    {
+      "path": "src/__init__.py",
+      "bytes": 58,
+      "sha256": "d6930c23595b1d32b3831de9090e4b45a38bc24a59cfaf4aed5b6b5b36bfdbf6"
+    },
+    {
+      "path": "src/evaluation.py",
+      "bytes": 2851,
+      "sha256": "b17b41b0c18cd98d16c8acb85a8b95503d9f7c6643c7cf4943e7cb5116454707"
+    },
+    {
+      "path": "src/features.py",
+      "bytes": 11464,
+      "sha256": "a0b50db6233760805c202b997b857a5b310e830abfa2fdf9c5119e9796eeee4c"
+    }
+  ]
+}

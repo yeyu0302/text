@@ -1,0 +1,1 @@
+"""Compact, bounded-compute continuation."""

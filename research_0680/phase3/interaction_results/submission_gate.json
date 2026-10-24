@@ -1,0 +1,39 @@
+{
+  "passed": false,
+  "protocol": {
+    "frozen_before_screen": true,
+    "outer_seeds": [
+      42,
+      2026
+    ],
+    "choices": [
+      "reference",
+      "interaction",
+      "balanced_interaction",
+      "reference+interaction",
+      "reference+balanced_interaction",
+      "interaction+balanced_interaction"
+    ],
+    "hypothesis": "Low-rank regional-severity by physical-vulnerability interactions model damage sensitivity with 48 added coefficients rather than more trees.",
+    "features": "Six centered geographic log odds (f90,f109,f141_m10; class3/class1 and class2/others) by eight physical variables; no feature or weight search",
+    "physics": [
+      "clean_age",
+      "clean_storey",
+      "slenderness",
+      "weak_masonry_score",
+      "f_182",
+      "f_214",
+      "f_199",
+      "f_119_clean"
+    ],
+    "interaction_scale": 0.25,
+    "C": 0.02857142857142857,
+    "mixture": "Equal arithmetic mean only",
+    "inner_min_gain": 0.001,
+    "gate": "Both seeds delta > 0.001 and paired 95% CI lower > 0",
+    "compute": "Two convex classifiers on a shared matrix, no spline or tree fit; stop at weak screening",
+    "history": "Sequential research; same outer data have been explored before. No independent blind test or actual Kaggle score.",
+    "backend_source_sha256": "d8b355be29a255d118ef411182a2f6b83cd7c7b5044bc9ca1ff4dd887151623f"
+  },
+  "candidate": null
+}

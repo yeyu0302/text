@@ -1,0 +1,27 @@
+{
+  "choice": "reference",
+  "trace": {
+    "means": {
+      "reference": 0.661209344878665,
+      "repair": 0.6602850400089884,
+      "reference+repair": 0.6605766135396214
+    },
+    "fold_scores": {
+      "reference": [
+        0.663114750163237,
+        0.6593039395940931
+      ],
+      "repair": [
+        0.6618493441343366,
+        0.6587207358836401
+      ],
+      "reference+repair": [
+        0.6624325479109298,
+        0.6587206791683129
+      ]
+    }
+  },
+  "train_id_sha256": "cd02c21cb209b0040f182345001e34507f36674f6d9a5d1ff9e0c6503c57c0aa",
+  "validation_id_sha256": "8d9f0e8e04725f1bbdf8a3fb510624750b3864cc0ba99d524670693752fc8212",
+  "runtime_seconds": 9.571233005000977
+}

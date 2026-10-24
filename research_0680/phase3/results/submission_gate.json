@@ -1,0 +1,40 @@
+{
+  "passed": false,
+  "protocol": {
+    "frozen_before_screen": true,
+    "screen_seed": 847,
+    "outer_seeds": [
+      42,
+      2026
+    ],
+    "outer_folds": 5,
+    "inner_folds": 2,
+    "inner_seed": 391,
+    "spline": {
+      "n_knots": 4,
+      "degree": 2,
+      "C": 0.1
+    },
+    "catboost": {
+      "iterations": 400,
+      "depth": 5,
+      "learning_rate": 0.06,
+      "l2_leaf_reg": 15,
+      "thread_count": 2
+    },
+    "choices": [
+      "reference",
+      "gam",
+      "cat",
+      "reference+gam",
+      "reference+cat",
+      "gam+cat"
+    ],
+    "mixture": "Equal arithmetic mean only, no weight search",
+    "inner_min_gain": 0.001,
+    "gate": "Both seeds delta > 0.001 and paired bootstrap 95% CI lower > 0",
+    "compute": "No Optuna, no early stopping using outer labels; reuse feature fits, at most 2 new base model types; stop after screening if all new choices fail to beat reference by 0.001.",
+    "history": "This is a sequential hypothesis informed by phase1/2. Outer splits have historical reuse, not a new blind test. No actual Kaggle score is measured."
+  },
+  "candidate": null
+}

@@ -1,0 +1,11 @@
+{
+  "frozen_before_screen": true,
+  "outer_seeds": [42, 2026],
+  "choices": ["reference", "repair", "reference+repair"],
+  "hypothesis": "Phase2 preserved valid-looking main values. Repair only strong proxy-consensus contradictions in otherwise valid main measurements.",
+  "fixed_rule": "Main correctness posterior < .1 with contamination prior .05, and |raw - posterior mean| > 3 posterior SD; replace with posterior mode. Leave all other values unchanged.",
+  "inner_min_gain": 0.001,
+  "gate": "Both seeds delta > 0.001 and paired 95% CI lower > 0",
+  "compute": "One extra frozen reference classifier, no new model search. Stop at weak screening.",
+  "history": "Final bounded hypothesis after negative phase3 routes. Only fold-local X fits repairs; no label alterations, independent blind test, or measured Kaggle score."
+}
