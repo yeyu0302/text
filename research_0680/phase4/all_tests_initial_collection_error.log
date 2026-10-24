@@ -1,0 +1,13 @@
+
+==================================== ERRORS ====================================
+_________ ERROR collecting research_0680/phase4/tests/test_methods.py __________
+import file mismatch:
+imported module 'test_methods' has this __file__ attribute:
+  /workspace/text/research_0680/phase2/tests/test_methods.py
+which is not the same as the test file we want to collect:
+  /workspace/text/research_0680/phase4/tests/test_methods.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+=========================== short test summary info ============================
+ERROR research_0680/phase4/tests/test_methods.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 0.78s

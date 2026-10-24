@@ -1,0 +1,42 @@
+{
+  "choice": "reference",
+  "trace": {
+    "means": {
+      "reference": 0.6580404638905422,
+      "brier": 0.6540057922229447,
+      "capped_ce": 0.6536653017556002,
+      "reference+brier": 0.655755743646267,
+      "reference+capped_ce": 0.6561931889656021,
+      "brier+capped_ce": 0.6538597218975271
+    },
+    "fold_scores": {
+      "reference": [
+        0.6538579070070538,
+        0.6622230207740304
+      ],
+      "brier": [
+        0.6509417183088079,
+        0.6570698661370816
+      ],
+      "capped_ce": [
+        0.6521081824450409,
+        0.6552224210661597
+      ],
+      "reference+brier": [
+        0.6517191720152057,
+        0.6597923152773283
+      ],
+      "reference+capped_ce": [
+        0.6539554006546537,
+        0.6584309772765504
+      ],
+      "brier+capped_ce": [
+        0.6520110858047321,
+        0.6557083579903219
+      ]
+    }
+  },
+  "train_id_sha256": "ab52e687b2d307b82bd48ebfbd94cea02076b9c1c15cd56a4d94ac79536e9190",
+  "validation_id_sha256": "6bb8dcb0e0da8234ae41c8b28f667c4483c79e9c34b71cd44035abc1aba17255",
+  "runtime_seconds": 5.502202488016337
+}

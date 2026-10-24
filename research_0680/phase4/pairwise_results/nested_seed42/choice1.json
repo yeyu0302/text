@@ -1,0 +1,42 @@
+{
+  "choice": "pair_hist+pair_quad",
+  "trace": {
+    "means": {
+      "reference": 0.6629521246639192,
+      "pair_hist": 0.6621734232203211,
+      "pair_quad": 0.6644102190130422,
+      "reference+pair_hist": 0.6664032239714364,
+      "reference+pair_quad": 0.6637784102671076,
+      "pair_hist+pair_quad": 0.6687854095056477
+    },
+    "fold_scores": {
+      "reference": [
+        0.6590124795271847,
+        0.6668917698006536
+      ],
+      "pair_hist": [
+        0.6602754164351263,
+        0.664071430005516
+      ],
+      "pair_quad": [
+        0.6597899899489098,
+        0.6690304480771746
+      ],
+      "reference+pair_hist": [
+        0.6619284413641217,
+        0.6708780065787511
+      ],
+      "reference+pair_quad": [
+        0.658817662377967,
+        0.6687391581562482
+      ],
+      "pair_hist+pair_quad": [
+        0.6663039721486909,
+        0.6712668468626045
+      ]
+    }
+  },
+  "train_id_sha256": "c9be12a51ee64f18c6b2bf88d00c8c927011e597a7e219f84bea154673e18e7f",
+  "validation_id_sha256": "2a63720cd1472511410f48fca22627f7fae78fa76990c6e98d6cc99d35b57be5",
+  "runtime_seconds": 7.46580729901325
+}

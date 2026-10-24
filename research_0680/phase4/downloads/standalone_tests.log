@@ -1,0 +1,9 @@
+.......                                                                  [100%]
+=============================== warnings summary ===============================
+research_0680/phase4/tests/test_phase4_methods.py::test_query_batch_isolation[research_0680.phase4.run]
+research_0680/phase4/tests/test_phase4_methods.py::test_query_batch_isolation[research_0680.phase4.run]
+  /workspace/.venvs/text-research/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:781: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (90) reached and the optimization hasn't converged yet.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+7 passed, 2 warnings in 5.90s

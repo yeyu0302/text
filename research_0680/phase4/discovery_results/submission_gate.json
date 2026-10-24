@@ -1,0 +1,4 @@
+{
+  "passed": false,
+  "reason": "All screening gains <= .001; stop without outer training"
+}

@@ -1,0 +1,14 @@
+{
+  "frozen_before_screen": true,
+  "hypothesis": "Previous fixed CORE55 omitted genuine binary/physical features and 7 TE families. Add all predeclared structural/group-context and TE features, no raw ID/geographic numeric IDs/noise features.",
+  "models": ["expanded_quad", "hinge", "mlp"],
+  "hinge": {"C": 0.02857142857142857, "knots": [-1.0, -0.5, 0.0, 1.0]},
+  "mlp": {"hidden_layer_sizes": [32], "alpha": 20, "max_iter": 90, "learning_rate_init": 0.0015, "batch_size": 256, "activation": "tanh"},
+  "choices": ["reference", "expanded_quad", "hinge", "mlp", "reference+hinge", "reference+mlp", "hinge+mlp"],
+  "outer_seeds": [42, 2026],
+  "inner_folds": 2,
+  "mixture": "Fixed equal arithmetic mean; no threshold or weight search",
+  "gate": "Both seeds delta > .001 and paired 95% CI lower > 0 for a statistically validated recommendation",
+  "csv_delivery": "Latest explicit user request authorizes an experimental submission even if statistically unconfirmed; never label it verified >.68 or replace the existing .679 submission.",
+  "history": "Sequential research on historically reused outer data, not an independent blind test. Actual Kaggle score remains unknown."
+}

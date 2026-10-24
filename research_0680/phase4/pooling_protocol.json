@@ -1,0 +1,9 @@
+{
+  "frozen_before_pool_scores": true,
+  "families": ["phase3/results", "phase4/results", "phase4/pairwise_results"],
+  "pool": "0.5 arithmetic mean plus 0.5 normalized geometric mean of three independently inner-selected family predictions; no fitted ensemble weights.",
+  "test": "Use saved per-fold model predictions with matching fold-specific TE scope, then average the two seed-specific pooled test predictions. No replacement by full-data TE in existing models.",
+  "decision": "Primary argmax; one alternative exact-log assignment assumes test class counts [1700,1700,1700], based on supplied competition context, not independently verified from test labels.",
+  "balanced_simulation": "Per outer fold, draw equally many held-out rows per true class, fixed 5 repeats. Evaluate a fixed log-assignment rule. Labels construct the evaluation distribution and compute scores only, never fit scores/weights or feed the decoder. Overlapping repeats are descriptive, not independent replicates.",
+  "limitations": "Component families' earlier OOF performance has been inspected; this combination is exploratory, not an unbiased independent confirmation. Do not call simulated Accuracy a measured Kaggle score. Latest user explicitly requests experimental submit-ready CSV."
+}

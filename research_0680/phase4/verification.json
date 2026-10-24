@@ -1,0 +1,42 @@
+{
+  "results/seed42": "15000 rows, outer ID hashes/labels/folds/probabilities valid; reference probabilities exactly equal previous reference",
+  "results/seed2026": "15000 rows, outer ID hashes/labels/folds/probabilities valid; reference probabilities exactly equal previous reference",
+  "pairwise_results/seed42": "15000 rows, outer ID hashes/labels/folds/probabilities valid; reference probabilities exactly equal previous reference",
+  "pairwise_results/seed2026": "15000 rows, outer ID hashes/labels/folds/probabilities valid; reference probabilities exactly equal previous reference",
+  "robust_results/seed42": "15000 rows, outer ID hashes/labels/folds/probabilities valid; reference probabilities exactly equal previous reference",
+  "robust_results/seed2026": "15000 rows, outer ID hashes/labels/folds/probabilities valid; reference probabilities exactly equal previous reference",
+  "originals_unchanged": true,
+  "submission_candidate_phase4_pool_argmax.csv": {
+    "schema_valid": true,
+    "byte_identical_fresh_reproduction": true,
+    "bytes": 34602,
+    "sha256": "f2d1c3e1b4c78f62b51f8ca9c443a15fb48c9adc447cbbb173f63b93ad8fbb11",
+    "counts": {
+      "1": 1632,
+      "2": 1770,
+      "3": 1698
+    },
+    "same_labels_as_existing_0679": 4839
+  },
+  "submission_candidate_phase4_pool_balanced1700.csv": {
+    "schema_valid": true,
+    "byte_identical_fresh_reproduction": true,
+    "bytes": 34602,
+    "sha256": "f8891c80e0280550215c7efc83ecaea441af69c3d339b2052809c995d31b8603",
+    "counts": {
+      "1": 1700,
+      "2": 1700,
+      "3": 1700
+    },
+    "same_labels_as_existing_0679": 4841
+  },
+  "cwd": "/workspace/text",
+  "source_hashes": {
+    "pool.py": "bf2ad1579881b3be9ee9ff0ce112e6377666513c06d51436434c919101e70dee",
+    "robust.py": "76f68e394788a8471784b85d714b9cba56d5f7353e438c30db747339f5231a9a",
+    "run.py": "3757af51bb256024bca05a7430da4e4ac08ff7916d349415c76785d6e1dc520e",
+    "__init__.py": "a6e0a89376433f326370948e6cd0d439ceca376c7e4ca91c5c3c36c7fa0bf492",
+    "pairwise.py": "9438b20184ab5b6d46b76ada17d1c92ecb757b0b2e19336aee80bc54ee344222",
+    "discovery.py": "d82b89581b05bd535ba3ffc71dabedc5afc37e64e3dfc1573308c90a4f2f46b6"
+  }
+}

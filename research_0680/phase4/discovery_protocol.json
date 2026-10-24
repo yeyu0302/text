@@ -1,0 +1,11 @@
+{
+  "frozen_before_screen": true,
+  "choices": ["reference", "discovery", "reference+discovery"],
+  "hypothesis": "Check omitted raw predictors rather than assuming all 186 excluded fields are noise.",
+  "selector": "Training-only chi-square association, numeric decile bins, categorical exact levels; Benjamini-Hochberg FDR .05; maximum 8 fields; binned one-hot additions to frozen reference features.",
+  "inner_folds": 2,
+  "outer_seeds": [42, 2026],
+  "gate": "Both seeds delta > .001 and paired 95% CI lower > 0",
+  "stop": "If no screened choice improves by .001, stop before full outer training.",
+  "history": "Sequential research, not an independent blind test; raw IDs excluded; no Kaggle labels or new measured Kaggle score."
+}

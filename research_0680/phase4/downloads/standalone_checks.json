@@ -1,0 +1,13 @@
+{
+  "submission_candidate.csv": {
+    "sha256": "f2d1c3e1b4c78f62b51f8ca9c443a15fb48c9adc447cbbb173f63b93ad8fbb11",
+    "standalone_no_git_reproduction_byte_identical": true,
+    "bytes": 34602
+  },
+  "submission_candidate_balanced1700.csv": {
+    "sha256": "f8891c80e0280550215c7efc83ecaea441af69c3d339b2052809c995d31b8603",
+    "standalone_no_git_reproduction_byte_identical": true,
+    "bytes": 34602
+  },
+  "standalone_tests": "7 passed; 2 expected maximum-epoch warnings on small-sample MLP isolation test"
+}

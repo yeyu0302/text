@@ -1,0 +1,20 @@
+{
+  "passed": false,
+  "protocol": {
+    "frozen_before_screen": true,
+    "choices": [
+      "reference",
+      "brier",
+      "capped_ce",
+      "reference+brier",
+      "reference+capped_ce",
+      "brier+capped_ce"
+    ],
+    "hypothesis": "Bounded proper Brier loss or capped cross-entropy can reduce uncertain-label influence without changing or dropping labels. Anchor to the reference coefficients to constrain drift.",
+    "capped_ce_probability": 0.1,
+    "anchor_lambda": "35 / training row count; intercept unanchored",
+    "optimization": "L-BFGS-B, maximum 60 iterations, fixed settings; class-balanced training weights",
+    "gate": "Both seeds delta > .001 and paired 95% CI lower > 0",
+    "history": "Final cheap training-loss hypothesis; sequentially informed research, no independent blind test or measured Kaggle score."
+  }
+}

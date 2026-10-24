@@ -1,0 +1,27 @@
+{
+  "passed": false,
+  "protocol": {
+    "frozen_before_screen": true,
+    "hypothesis": "Two adjacent-class specialists (Level1 vs Level2 and Level2 vs Level3) learn different damage boundaries; recover coherent multiclass probabilities through adjacent odds.",
+    "choices": [
+      "reference",
+      "pair_hist",
+      "pair_quad",
+      "reference+pair_hist",
+      "reference+pair_quad",
+      "pair_hist+pair_quad"
+    ],
+    "hist": {
+      "max_iter": 180,
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.07,
+      "min_samples_leaf": 35,
+      "l2_regularization": 20
+    },
+    "features": "Frozen CORE55 and categorical indicators, no raw geographic numeric IDs or unrelated noise fields",
+    "pair_fit": "Each adjacent classifier sees only its two source classes, with inverse source-class frequency weights. No second prior correction.",
+    "gate": "Both seeds delta > .001 and paired 95% CI lower > 0",
+    "csv_delivery": "Latest request explicitly authorizes experimental CSV; mark unconfirmed if statistical gate fails, do not replace .679.",
+    "history": "Sequential follow-up; historically reused outer data, not independent blind validation; Kaggle score unknown."
+  }
+}

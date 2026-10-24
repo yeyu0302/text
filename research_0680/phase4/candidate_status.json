@@ -1,0 +1,19 @@
+{
+  "primary": "downloads/submission_candidate.csv",
+  "backup": "downloads/submission_candidate_balanced1700.csv",
+  "measured_kaggle_score": null,
+  "statistical_gate_passed": false,
+  "status": "Experimental; score above Kaggle .680 not established",
+  "authorization": "Latest explicit request asks to generate a submit-ready file. Deliver experimental candidates, preserve prior .679, do not relax statistical conclusions.",
+  "primary_counts": {
+    "1": 1632,
+    "2": 1770,
+    "3": 1698
+  },
+  "backup_assumption": "Test class counts exactly [1700,1700,1700], supplied context but not independently verified",
+  "feature_dimensions": {
+    "reference": 117,
+    "expanded": 213
+  },
+  "code_lines": 294
+}
