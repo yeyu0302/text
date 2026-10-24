@@ -1,0 +1,41 @@
+{
+  "balanced_accuracy": 0.674187085906173,
+  "accuracy": 0.6748666666666666,
+  "macro_f1": 0.6445313552218396,
+  "log_loss": 0.7328795126696416,
+  "recall_1": 0.7366946778711485,
+  "recall_2": 0.5780630105017502,
+  "recall_3": 0.7078035693456199,
+  "level2_to1": 821,
+  "level2_to3": 987,
+  "predicted_counts": [
+    2910,
+    4939,
+    7151
+  ],
+  "confusion_matrix": [
+    [
+      1578,
+      468,
+      96
+    ],
+    [
+      821,
+      2477,
+      987
+    ],
+    [
+      511,
+      1994,
+      6068
+    ]
+  ],
+  "name": "S4_outer_knn20",
+  "seed": 42,
+  "runtime_seconds": 18.316339478013106,
+  "path": "/workspace/text/research_0680/results/04_knn_ablation/S4_outer_knn20_seed42",
+  "delta": -0.00011683602471249718,
+  "ci_low": -0.0034022645950194837,
+  "ci_high": 0.0031037638028776123,
+  "draws": 1000
+}

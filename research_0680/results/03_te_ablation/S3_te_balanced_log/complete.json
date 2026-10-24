@@ -1,0 +1,48 @@
+{
+  "stage": "S3",
+  "name": "te_balanced_log",
+  "status": "complete",
+  "balanced_accuracy": 0.6924733313121586,
+  "accuracy": 0.6901333333333334,
+  "macro_f1": 0.6623268695072365,
+  "log_loss": 0.7180249235498738,
+  "recall_1": 0.7313432835820896,
+  "recall_2": 0.642390289449113,
+  "recall_3": 0.703686420905273,
+  "level2_to1": 168,
+  "level2_to3": 215,
+  "predicted_counts": [
+    708,
+    1298,
+    1744
+  ],
+  "confusion_matrix": [
+    [
+      392,
+      123,
+      21
+    ],
+    [
+      168,
+      688,
+      215
+    ],
+    [
+      148,
+      487,
+      1508
+    ]
+  ],
+  "runtime_seconds": 1.740301568992436,
+  "config": {
+    "proxy": "V0",
+    "te": "balanced_log",
+    "knn": "none",
+    "model": "spline",
+    "ablate": "none",
+    "strategy": "full",
+    "weights": "none",
+    "residual": false
+  },
+  "interpretation": "EXPLORATORY SINGLE DEVELOPMENT SPLIT; not unbiased OOF"
+}

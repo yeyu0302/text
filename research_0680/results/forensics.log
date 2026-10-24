@@ -1,0 +1,7 @@
+Fontconfig error: No writable cache directories
+S1 neighborhood fold 0 seconds 2.0
+S1 neighborhood fold 1 seconds 3.9
+S1 neighborhood fold 2 seconds 5.8
+S1 neighborhood fold 3 seconds 7.8
+S1 neighborhood fold 4 seconds 9.7
+S1 complete [{'prior_standardized': False, 'roc_auc': 0.5817868496732026}, {'prior_standardized': True, 'roc_auc': 0.5082990430566369}]

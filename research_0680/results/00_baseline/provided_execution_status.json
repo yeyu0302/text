@@ -1,0 +1,7 @@
+{
+  "exit_code": 1,
+  "source_sha256": "66dd5a298ae1066f2646f34d4ee6beea7841b88eec4c0bf382e81b88c29c421b",
+  "faithful_unmodified_source": true,
+  "score_reproduced": false,
+  "source_version": "V6 header; V5 parameter metadata supplied separately"
+}

@@ -1,0 +1,50 @@
+{
+  "seeds": [
+    42,
+    2026
+  ],
+  "outer_folds": 5,
+  "inner_selection_folds": 2,
+  "encoding_crossfit_folds": 3,
+  "screening_seed": 847,
+  "threads": 1,
+  "candidate_gate": {
+    "minimum_delta": 0.001,
+    "primary_ci_low_above_zero": true,
+    "confirmation_delta_above_zero": true,
+    "confirmation_minimum_delta": 0.001,
+    "confirmation_ci_low_above_zero": true,
+    "note": "Conservative confirmation tightening cannot change this run's no-go: both primary CIs already cross zero."
+  },
+  "proxy_menu": [
+    "V0",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5"
+  ],
+  "te_menu": [
+    "plain",
+    "balanced",
+    "balanced_log",
+    "balanced_log8",
+    "balanced_log16",
+    "balanced_log32"
+  ],
+  "knn_menu": [
+    "none",
+    "region_k10",
+    "region_k20",
+    "region_k40"
+  ],
+  "model_menu": [
+    "spline",
+    "ordinal",
+    "hgb",
+    "blend"
+  ],
+  "budget": "Screen stages sequentially. Two final nested rules select only within outer training. No winner chosen from pooled outer OOF.",
+  "candidate_selection_rules_frozen_before_candidate_outer_evaluation": true,
+  "registration_note": "Representation controls requested in the uploaded plan were added before any candidate outer-fold evaluation; screening is exploratory and never determines a global winning feature list."
+}

@@ -1,0 +1,48 @@
+{
+  "stage": "S4",
+  "name": "knn_region_k40",
+  "status": "complete",
+  "balanced_accuracy": 0.6885825228902841,
+  "accuracy": 0.6888,
+  "macro_f1": 0.6615062682307408,
+  "log_loss": 0.7144249178547681,
+  "recall_1": 0.7294776119402985,
+  "recall_2": 0.6265172735760971,
+  "recall_3": 0.7097526831544564,
+  "level2_to1": 167,
+  "level2_to3": 233,
+  "predicted_counts": [
+    688,
+    1285,
+    1777
+  ],
+  "confusion_matrix": [
+    [
+      391,
+      122,
+      23
+    ],
+    [
+      167,
+      671,
+      233
+    ],
+    [
+      130,
+      492,
+      1521
+    ]
+  ],
+  "runtime_seconds": 3.073349832004169,
+  "config": {
+    "proxy": "V0",
+    "te": "plain",
+    "knn": "region_k40",
+    "model": "spline",
+    "ablate": "none",
+    "strategy": "full",
+    "weights": "none",
+    "residual": false
+  },
+  "interpretation": "EXPLORATORY SINGLE DEVELOPMENT SPLIT; not unbiased OOF"
+}

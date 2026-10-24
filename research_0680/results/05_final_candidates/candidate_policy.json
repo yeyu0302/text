@@ -1,0 +1,8 @@
+{
+  "maximum_candidates": 2,
+  "actual_candidates": 0,
+  "no_unvalidated_submission_created": true,
+  "original_user_submission_preserved": true,
+  "quota_constraint_used": false,
+  "note": "A passed local gate is not evidence that Kaggle Accuracy exceeds .680 or the supplied .679 score."
+}

@@ -1,0 +1,41 @@
+{
+  "balanced_accuracy": 0.675937772591286,
+  "accuracy": 0.6756666666666666,
+  "macro_f1": 0.6454448686840429,
+  "log_loss": 0.7339882869453699,
+  "recall_1": 0.742296918767507,
+  "recall_2": 0.577362893815636,
+  "recall_3": 0.7081535051907151,
+  "level2_to1": 816,
+  "level2_to3": 995,
+  "predicted_counts": [
+    2938,
+    4901,
+    7161
+  ],
+  "confusion_matrix": [
+    [
+      1590,
+      457,
+      95
+    ],
+    [
+      816,
+      2474,
+      995
+    ],
+    [
+      532,
+      1970,
+      6071
+    ]
+  ],
+  "name": "nested_adaptive",
+  "seed": 42,
+  "runtime_seconds": 348.7210719859868,
+  "path": "/workspace/text/research_0680/results/05_final_candidates/nested_adaptive_seed42",
+  "delta": 0.0016338506604005884,
+  "ci_low": -0.002248699767770492,
+  "ci_high": 0.0053678995152610645,
+  "draws": 1000
+}

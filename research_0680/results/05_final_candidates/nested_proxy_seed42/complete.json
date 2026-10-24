@@ -1,0 +1,41 @@
+{
+  "balanced_accuracy": 0.6752377467926696,
+  "accuracy": 0.675,
+  "macro_f1": 0.6441771897419379,
+  "log_loss": 0.7364528590300882,
+  "recall_1": 0.7455648926237162,
+  "recall_2": 0.5705950991831972,
+  "recall_3": 0.7095532485710953,
+  "level2_to1": 830,
+  "level2_to3": 1010,
+  "predicted_counts": [
+    2970,
+    4837,
+    7193
+  ],
+  "confusion_matrix": [
+    [
+      1597,
+      445,
+      100
+    ],
+    [
+      830,
+      2445,
+      1010
+    ],
+    [
+      543,
+      1947,
+      6083
+    ]
+  ],
+  "name": "nested_proxy",
+  "seed": 42,
+  "runtime_seconds": 89.42532793001737,
+  "path": "/workspace/text/research_0680/results/05_final_candidates/nested_proxy_seed42",
+  "delta": 0.0009338248617841464,
+  "ci_low": -0.0017114716964394055,
+  "ci_high": 0.003567842104590307,
+  "draws": 1000
+}

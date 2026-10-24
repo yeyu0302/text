@@ -1,0 +1,3 @@
+method,mse_baseline,mse_modified,balanced_mse_baseline,balanced_mse_modified,note
+residual,0.1681420962020454,0.16543631221589433,0.1760896071985956,0.176778754827655,"Independent development holdout, not final OOF. Damage labels unchanged."
+soft_weights,0.1681420962020454,0.16854501115054923,0.1760896071985956,0.1762152320580619,"Independent development holdout, not final OOF. Damage labels unchanged."

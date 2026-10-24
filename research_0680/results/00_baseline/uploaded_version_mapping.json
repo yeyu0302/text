@@ -1,0 +1,10 @@
+{
+  "user_supplied_submission": "/workspace/text/research_0680/results/00_baseline/provided/submission_user_0679.csv",
+  "sha256": "61d3d73ee03aeb8bacf938fbdd2fa9673e38a7b7016d3aeaddf22c6413ebdc1f",
+  "user_reported_kaggle": 0.679,
+  "generation_code_header": "V6 Dual Plan",
+  "parameter_header": "V5 13Model Hybrid",
+  "exact_generation_reproduced": false,
+  "reason": "Unmodified supplied code fails in base cleaning when 'c3' is converted to float",
+  "provided_oof_available": false
+}

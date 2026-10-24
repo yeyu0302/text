@@ -1,0 +1,14 @@
+====================================================================================
+2026 ML&DL Midterm — V6 Dual-Plan Super-Ensemble Pipeline (Target: 0.680+)
+====================================================================================
+[1/5] Loaded train=(15000, 240), test=(5100, 239)
+Traceback (most recent call last):
+  File "/workspace/text/research_0680/results/00_baseline/provided/optimize_pipeline_user.py", line 1303, in <module>
+    main()
+  File "/workspace/text/research_0680/results/00_baseline/provided/optimize_pipeline_user.py", line 1011, in main
+    base_df = clean_and_engineer_base_features(train_df, test_df, allow_raw_village_sr=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/text/research_0680/results/00_baseline/provided/optimize_pipeline_user.py", line 254, in clean_and_engineer_base_features
+    raw_b = df[bcol].values.astype(np.float64)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'c3'

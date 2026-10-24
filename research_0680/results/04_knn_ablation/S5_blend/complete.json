@@ -1,0 +1,48 @@
+{
+  "stage": "S5",
+  "name": "blend",
+  "status": "complete",
+  "balanced_accuracy": 0.69153512388024,
+  "accuracy": 0.6896,
+  "macro_f1": 0.6620230004713824,
+  "log_loss": 0.7152708616942226,
+  "recall_1": 0.7425373134328358,
+  "recall_2": 0.6218487394957983,
+  "recall_3": 0.7102193187120859,
+  "level2_to1": 172,
+  "level2_to3": 233,
+  "predicted_counts": [
+    710,
+    1263,
+    1777
+  ],
+  "confusion_matrix": [
+    [
+      398,
+      116,
+      22
+    ],
+    [
+      172,
+      666,
+      233
+    ],
+    [
+      140,
+      481,
+      1522
+    ]
+  ],
+  "runtime_seconds": 3.3445035880140495,
+  "config": {
+    "proxy": "V0",
+    "te": "plain",
+    "knn": "none",
+    "model": "blend",
+    "ablate": "none",
+    "strategy": "full",
+    "weights": "none",
+    "residual": false
+  },
+  "interpretation": "EXPLORATORY SINGLE DEVELOPMENT SPLIT; not unbiased OOF"
+}

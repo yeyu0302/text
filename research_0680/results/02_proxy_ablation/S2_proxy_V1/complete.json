@@ -1,0 +1,48 @@
+{
+  "stage": "S2",
+  "name": "proxy_V1",
+  "status": "complete",
+  "balanced_accuracy": 0.6896679999024463,
+  "accuracy": 0.6914666666666667,
+  "macro_f1": 0.6616986131878175,
+  "log_loss": 0.7173639735072861,
+  "recall_1": 0.7369402985074627,
+  "recall_2": 0.6125116713352008,
+  "recall_3": 0.7195520298646757,
+  "level2_to1": 175,
+  "level2_to3": 240,
+  "predicted_counts": [
+    706,
+    1241,
+    1803
+  ],
+  "confusion_matrix": [
+    [
+      395,
+      120,
+      21
+    ],
+    [
+      175,
+      656,
+      240
+    ],
+    [
+      136,
+      465,
+      1542
+    ]
+  ],
+  "runtime_seconds": 1.6604808020056225,
+  "config": {
+    "proxy": "V1",
+    "te": "plain",
+    "knn": "none",
+    "model": "spline",
+    "ablate": "none",
+    "strategy": "full",
+    "weights": "none",
+    "residual": false
+  },
+  "interpretation": "EXPLORATORY SINGLE DEVELOPMENT SPLIT; not unbiased OOF"
+}

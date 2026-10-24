@@ -1,0 +1,48 @@
+{
+  "stage": "S5",
+  "name": "one_hot",
+  "status": "complete",
+  "balanced_accuracy": 0.6913832076376626,
+  "accuracy": 0.692,
+  "macro_f1": 0.6642148865228173,
+  "log_loss": 0.72107971505015,
+  "recall_1": 0.7294776119402985,
+  "recall_2": 0.6321195144724556,
+  "recall_3": 0.7125524965002333,
+  "level2_to1": 172,
+  "level2_to3": 222,
+  "predicted_counts": [
+    687,
+    1293,
+    1770
+  ],
+  "confusion_matrix": [
+    [
+      391,
+      124,
+      21
+    ],
+    [
+      172,
+      677,
+      222
+    ],
+    [
+      124,
+      492,
+      1527
+    ]
+  ],
+  "runtime_seconds": 1.6804092280217446,
+  "config": {
+    "proxy": "V0",
+    "te": "plain",
+    "knn": "none",
+    "model": "spline",
+    "ablate": "one_hot",
+    "strategy": "full",
+    "weights": "none",
+    "residual": false
+  },
+  "interpretation": "EXPLORATORY SINGLE DEVELOPMENT SPLIT; not unbiased OOF"
+}

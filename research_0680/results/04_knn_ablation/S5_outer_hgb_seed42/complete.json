@@ -1,0 +1,41 @@
+{
+  "balanced_accuracy": 0.6664084831634822,
+  "accuracy": 0.6667333333333333,
+  "macro_f1": 0.63622645894836,
+  "log_loss": 0.7327235755856897,
+  "recall_1": 0.7301587301587301,
+  "recall_2": 0.569661610268378,
+  "recall_3": 0.6994051090633384,
+  "level2_to1": 836,
+  "level2_to3": 1008,
+  "predicted_counts": [
+    2940,
+    4964,
+    7096
+  ],
+  "confusion_matrix": [
+    [
+      1564,
+      486,
+      92
+    ],
+    [
+      836,
+      2441,
+      1008
+    ],
+    [
+      540,
+      2037,
+      5996
+    ]
+  ],
+  "name": "S5_outer_hgb",
+  "seed": 42,
+  "runtime_seconds": 24.502906445995905,
+  "path": "/workspace/text/research_0680/results/04_knn_ablation/S5_outer_hgb_seed42",
+  "delta": -0.007895438767403201,
+  "ci_low": -0.013211437926946923,
+  "ci_high": -0.002520329368436003,
+  "draws": 1000
+}

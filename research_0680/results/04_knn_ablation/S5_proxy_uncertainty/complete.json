@@ -1,0 +1,48 @@
+{
+  "stage": "S5",
+  "name": "proxy_uncertainty",
+  "status": "complete",
+  "balanced_accuracy": 0.6878030546996149,
+  "accuracy": 0.688,
+  "macro_f1": 0.6596315627871233,
+  "log_loss": 0.7198929810314603,
+  "recall_1": 0.7332089552238806,
+  "recall_2": 0.6190476190476191,
+  "recall_3": 0.7111525898273449,
+  "level2_to1": 173,
+  "level2_to3": 235,
+  "predicted_counts": [
+    702,
+    1265,
+    1783
+  ],
+  "confusion_matrix": [
+    [
+      393,
+      119,
+      24
+    ],
+    [
+      173,
+      663,
+      235
+    ],
+    [
+      136,
+      483,
+      1524
+    ]
+  ],
+  "runtime_seconds": 1.748696194990771,
+  "config": {
+    "proxy": "V0",
+    "te": "plain",
+    "knn": "none",
+    "model": "spline",
+    "ablate": "proxy_uncertainty",
+    "strategy": "full",
+    "weights": "none",
+    "residual": false
+  },
+  "interpretation": "EXPLORATORY SINGLE DEVELOPMENT SPLIT; not unbiased OOF"
+}

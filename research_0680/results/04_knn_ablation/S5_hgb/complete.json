@@ -1,0 +1,48 @@
+{
+  "stage": "S5",
+  "name": "hgb",
+  "status": "complete",
+  "balanced_accuracy": 0.6790884582916402,
+  "accuracy": 0.6778666666666666,
+  "macro_f1": 0.6495100573474906,
+  "log_loss": 0.7210033416751224,
+  "recall_1": 0.7369402985074627,
+  "recall_2": 0.5966386554621849,
+  "recall_3": 0.703686420905273,
+  "level2_to1": 182,
+  "level2_to3": 250,
+  "predicted_counts": [
+    720,
+    1247,
+    1783
+  ],
+  "confusion_matrix": [
+    [
+      395,
+      116,
+      25
+    ],
+    [
+      182,
+      639,
+      250
+    ],
+    [
+      143,
+      492,
+      1508
+    ]
+  ],
+  "runtime_seconds": 2.945369650988141,
+  "config": {
+    "proxy": "V0",
+    "te": "plain",
+    "knn": "none",
+    "model": "hgb",
+    "ablate": "none",
+    "strategy": "full",
+    "weights": "none",
+    "residual": false
+  },
+  "interpretation": "EXPLORATORY SINGLE DEVELOPMENT SPLIT; not unbiased OOF"
+}

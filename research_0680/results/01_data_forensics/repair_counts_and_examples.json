@@ -1,0 +1,342 @@
+[
+  {
+    "fold": 0,
+    "source": "structure_age",
+    "variant": "V3",
+    "changed": 2656,
+    "untrusted": 160,
+    "examples": [
+      3,
+      4,
+      6,
+      8,
+      11,
+      14,
+      20,
+      26
+    ]
+  },
+  {
+    "fold": 0,
+    "source": "storey_count",
+    "variant": "V3",
+    "changed": 2729,
+    "untrusted": 10,
+    "examples": [
+      3,
+      6,
+      8,
+      11,
+      14,
+      16,
+      20,
+      26
+    ]
+  },
+  {
+    "fold": 0,
+    "source": "footprint_area",
+    "variant": "V3",
+    "changed": 2981,
+    "untrusted": 33,
+    "examples": [
+      2,
+      3,
+      4,
+      6,
+      8,
+      11,
+      14,
+      16
+    ]
+  },
+  {
+    "fold": 0,
+    "source": "f_165",
+    "variant": "V3",
+    "changed": 2862,
+    "untrusted": 175,
+    "examples": [
+      2,
+      3,
+      4,
+      6,
+      8,
+      11,
+      14,
+      16
+    ]
+  },
+  {
+    "fold": 1,
+    "source": "structure_age",
+    "variant": "V3",
+    "changed": 2650,
+    "untrusted": 181,
+    "examples": [
+      9,
+      10,
+      18,
+      19,
+      31,
+      34,
+      39,
+      41
+    ]
+  },
+  {
+    "fold": 1,
+    "source": "storey_count",
+    "variant": "V3",
+    "changed": 2731,
+    "untrusted": 9,
+    "examples": [
+      5,
+      9,
+      10,
+      13,
+      18,
+      28,
+      31,
+      34
+    ]
+  },
+  {
+    "fold": 1,
+    "source": "footprint_area",
+    "variant": "V3",
+    "changed": 2987,
+    "untrusted": 19,
+    "examples": [
+      5,
+      9,
+      10,
+      13,
+      18,
+      19,
+      28,
+      31
+    ]
+  },
+  {
+    "fold": 1,
+    "source": "f_165",
+    "variant": "V3",
+    "changed": 2860,
+    "untrusted": 177,
+    "examples": [
+      9,
+      10,
+      13,
+      18,
+      19,
+      28,
+      31,
+      34
+    ]
+  },
+  {
+    "fold": 2,
+    "source": "structure_age",
+    "variant": "V3",
+    "changed": 2628,
+    "untrusted": 181,
+    "examples": [
+      15,
+      21,
+      24,
+      51,
+      53,
+      60,
+      62,
+      76
+    ]
+  },
+  {
+    "fold": 2,
+    "source": "storey_count",
+    "variant": "V3",
+    "changed": 2703,
+    "untrusted": 8,
+    "examples": [
+      21,
+      24,
+      51,
+      53,
+      60,
+      62,
+      76,
+      79
+    ]
+  },
+  {
+    "fold": 2,
+    "source": "footprint_area",
+    "variant": "V3",
+    "changed": 2987,
+    "untrusted": 27,
+    "examples": [
+      15,
+      21,
+      24,
+      51,
+      53,
+      60,
+      62,
+      76
+    ]
+  },
+  {
+    "fold": 2,
+    "source": "f_165",
+    "variant": "V3",
+    "changed": 2853,
+    "untrusted": 180,
+    "examples": [
+      15,
+      21,
+      24,
+      51,
+      53,
+      60,
+      62,
+      76
+    ]
+  },
+  {
+    "fold": 3,
+    "source": "structure_age",
+    "variant": "V3",
+    "changed": 2634,
+    "untrusted": 171,
+    "examples": [
+      1,
+      7,
+      17,
+      22,
+      25,
+      30,
+      32,
+      40
+    ]
+  },
+  {
+    "fold": 3,
+    "source": "storey_count",
+    "variant": "V3",
+    "changed": 2708,
+    "untrusted": 16,
+    "examples": [
+      1,
+      7,
+      17,
+      22,
+      25,
+      30,
+      32,
+      40
+    ]
+  },
+  {
+    "fold": 3,
+    "source": "footprint_area",
+    "variant": "V3",
+    "changed": 2983,
+    "untrusted": 27,
+    "examples": [
+      1,
+      7,
+      17,
+      22,
+      25,
+      30,
+      32,
+      40
+    ]
+  },
+  {
+    "fold": 3,
+    "source": "f_165",
+    "variant": "V3",
+    "changed": 2878,
+    "untrusted": 154,
+    "examples": [
+      1,
+      7,
+      22,
+      25,
+      30,
+      32,
+      40,
+      54
+    ]
+  },
+  {
+    "fold": 4,
+    "source": "structure_age",
+    "variant": "V3",
+    "changed": 2629,
+    "untrusted": 191,
+    "examples": [
+      12,
+      35,
+      37,
+      42,
+      46,
+      48,
+      50,
+      52
+    ]
+  },
+  {
+    "fold": 4,
+    "source": "storey_count",
+    "variant": "V3",
+    "changed": 2729,
+    "untrusted": 12,
+    "examples": [
+      23,
+      27,
+      35,
+      37,
+      38,
+      42,
+      46,
+      48
+    ]
+  },
+  {
+    "fold": 4,
+    "source": "footprint_area",
+    "variant": "V3",
+    "changed": 2986,
+    "untrusted": 27,
+    "examples": [
+      12,
+      23,
+      27,
+      35,
+      37,
+      38,
+      42,
+      46
+    ]
+  },
+  {
+    "fold": 4,
+    "source": "f_165",
+    "variant": "V3",
+    "changed": 2882,
+    "untrusted": 161,
+    "examples": [
+      12,
+      23,
+      27,
+      35,
+      37,
+      38,
+      42,
+      48
+    ]
+  }
+]

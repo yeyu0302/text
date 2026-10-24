@@ -1,0 +1,54 @@
+{
+  "version": "V5_13Model_Hybrid_Super_Ensemble_Full100_Test_TE",
+  "why_v4_was_067526_and_how_v5_surpasses_v1": {
+    "issue_1_in_v4": "In V4, test.csv's Target Encodings inside each 5-fold loop were computed using only tr_idx (80% of train.csv = 12,000 rows), throwing away 3,000 training labels in every fold, whereas V1 used 100% of train.csv (15,000 rows) for test.csv Target Encodings.",
+    "issue_2_in_v4": "In V4, GBDTs were given 153 base columns (including 41 sparse One-Hot columns that diluted feature subsampling) and only 40% ensemble weight (vs V1's 60% GBDT weight on 64 compact columns).",
+    "issue_3_in_v4": "In V4, Target Encodings were passed only in raw 1:2:4 probability scale without Balanced 1:1:1 Prior Calibration (te_bal_p) and Log-Odds expansion (te_log_p).",
+    "v5_upgrades": [
+      "1. Full-100%-Train Test TE (using all 15,000 training rows for test.csv target encodings while training models on strictly leak-free Double-Nested OOF TE).",
+      "2. Compact 73-column high-signal feature routing for GBDTs + Multi-Depth (Depth 4, 5, 6) + Symmetric Ordinal Specialist GBDTs (boosting Zero-Leakage GBDT Family OOF from 0.67547 to 0.68088!).",
+      "3. Balanced 1:1:1 Prior Target Encodings + Log-Odds + Pure-Physical Within-Village Kernel KNN.",
+      "4. Restored 62% GBDT + 38% Spline/MLP ratio using 50% Linear + 50% Log-Linear (Geometric Mean) Hybrid Pooling across 13 diverse models."
+    ]
+  },
+  "zero_leakage_cv_performance": {
+    "v1_ensemble_cv": 0.67804,
+    "v1_kaggle_lb": 0.67600,
+    "v4_gbdt_family_cv": 0.67547,
+    "v4_kaggle_lb": 0.67526,
+    "v5_super_gbdt_family_cv": 0.68088,
+    "v5_super_spline_family_cv": 0.68099,
+    "v5_13model_hybrid_super_ensemble_cv": 0.68368,
+    "v5_recalls_by_class": {
+      "level_1": 0.7409,
+      "level_2": 0.6028,
+      "level_3": 0.7073
+    }
+  },
+  "recommended_xgboost_multinomial_params": {
+    "n_estimators": 850,
+    "max_depth": 5,
+    "learning_rate": 0.025,
+    "subsample": 0.80,
+    "colsample_bytree": 0.65,
+    "min_child_weight": 20,
+    "reg_alpha": 1.5,
+    "reg_lambda": 6.0,
+    "gamma": 0.30,
+    "objective": "multi:softprob",
+    "num_class": 3,
+    "tree_method": "hist"
+  },
+  "recommended_xgboost_ordinal_specialist_params": {
+    "n_estimators": 650,
+    "max_depth": 4,
+    "learning_rate": 0.025,
+    "subsample": 0.80,
+    "colsample_bytree": 0.65,
+    "min_child_weight": 20,
+    "reg_alpha": 1.5,
+    "reg_lambda": 6.0,
+    "objective": "binary:logistic",
+    "tree_method": "hist"
+  }
+}

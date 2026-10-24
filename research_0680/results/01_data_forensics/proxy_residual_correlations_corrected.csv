@@ -1,0 +1,5 @@
+source,mean_off_diagonal,available_pairs,method
+structure_age,0.000966078793605245,56,pairwise-complete silver-reference residuals
+storey_count,0.0016797629324560284,30,pairwise-complete silver-reference residuals
+footprint_area,-0.0036072818478409207,6,pairwise-complete silver-reference residuals
+f_165,-0.0004449578233137798,12,pairwise-complete silver-reference residuals

@@ -1,0 +1,5 @@
+path,sha256,rows,valid,kaggle_0679_mapping
+/workspace/text/results/best_submission.csv,e4a2d062f4cd31377cd483455d349a9e8a9ce7f9ec47199c31fc05e36a356782,5100,True,unconfirmed; awaiting user submission identity
+/workspace/text/results/alternative_submission.csv,a9b6fc10b03c2f4b0d48cdbde624604cc02fc657a4c6e76afcde9e18e7e527c9,5100,True,unconfirmed; awaiting user submission identity
+/workspace/text/results/legacy_reproduction/submission.csv,d0f221a4723bc98bfb1c23df46a5e70014bc5b41eb91991dccc905936646eabc,5100,True,unconfirmed; awaiting user submission identity
+/workspace/text/downloads/best_submission.csv,e4a2d062f4cd31377cd483455d349a9e8a9ce7f9ec47199c31fc05e36a356782,5100,True,unconfirmed; awaiting user submission identity

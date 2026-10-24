@@ -1,0 +1,48 @@
+{
+  "stage": "S5",
+  "name": "residual",
+  "status": "complete",
+  "balanced_accuracy": 0.6873330784982211,
+  "accuracy": 0.6946666666666667,
+  "macro_f1": 0.662155648131208,
+  "log_loss": 0.712197878307984,
+  "recall_1": 0.7313432835820896,
+  "recall_2": 0.5957049486461251,
+  "recall_3": 0.7349510032664489,
+  "level2_to1": 170,
+  "level2_to3": 263,
+  "predicted_counts": [
+    697,
+    1191,
+    1862
+  ],
+  "confusion_matrix": [
+    [
+      392,
+      120,
+      24
+    ],
+    [
+      170,
+      638,
+      263
+    ],
+    [
+      135,
+      433,
+      1575
+    ]
+  ],
+  "runtime_seconds": 0.7354880619968753,
+  "config": {
+    "proxy": "V0",
+    "te": "plain",
+    "knn": "none",
+    "model": "spline",
+    "ablate": "none",
+    "strategy": "full",
+    "weights": "none",
+    "residual": true
+  },
+  "interpretation": "EXPLORATORY SINGLE DEVELOPMENT SPLIT; not unbiased OOF"
+}

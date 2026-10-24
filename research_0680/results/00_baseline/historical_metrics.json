@@ -1,0 +1,35 @@
+{
+  "balanced_accuracy": 0.6788199040931119,
+  "accuracy": 0.6680666666666667,
+  "macro_f1": 0.6468774886208913,
+  "log_loss": 0.7392337320196257,
+  "recall_1": 0.7301587301587301,
+  "recall_2": 0.6394399066511085,
+  "recall_3": 0.6668610754694972,
+  "level2_to1": 749,
+  "level2_to3": 796,
+  "predicted_counts": [
+    2803,
+    5604,
+    6593
+  ],
+  "confusion_matrix": [
+    [
+      1564,
+      498,
+      80
+    ],
+    [
+      749,
+      2740,
+      796
+    ],
+    [
+      490,
+      2366,
+      5717
+    ]
+  ],
+  "fold_definition": "legacy class-wise shuffled round robin; NOT new sklearn folds",
+  "kaggle_mapping": "not established"
+}

@@ -1,0 +1,327 @@
+[
+  {
+    "feature": "f_182",
+    "dtype": "int64",
+    "non_numeric_count": 0,
+    "is_actually_binary": true,
+    "examples": [
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "feature": "f_214",
+    "dtype": "int64",
+    "non_numeric_count": 0,
+    "is_actually_binary": true,
+    "examples": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "feature": "f_199",
+    "dtype": "int64",
+    "non_numeric_count": 0,
+    "is_actually_binary": true,
+    "examples": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "feature": "f_103",
+    "dtype": "float64",
+    "non_numeric_count": 0,
+    "is_actually_binary": true,
+    "examples": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "feature": "f_113",
+    "dtype": "int64",
+    "non_numeric_count": 0,
+    "is_actually_binary": true,
+    "examples": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "feature": "f_124",
+    "dtype": "int64",
+    "non_numeric_count": 0,
+    "is_actually_binary": true,
+    "examples": [
+      0,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "feature": "f_175",
+    "dtype": "float64",
+    "non_numeric_count": 0,
+    "is_actually_binary": true,
+    "examples": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "feature": "f_23",
+    "dtype": "int64",
+    "non_numeric_count": 0,
+    "is_actually_binary": true,
+    "examples": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "feature": "f_104",
+    "dtype": "int64",
+    "non_numeric_count": 0,
+    "is_actually_binary": true,
+    "examples": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "feature": "f_226",
+    "dtype": "int64",
+    "non_numeric_count": 0,
+    "is_actually_binary": true,
+    "examples": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "feature": "f_75",
+    "dtype": "int64",
+    "non_numeric_count": 0,
+    "is_actually_binary": true,
+    "examples": [
+      1,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "feature": "f_130",
+    "dtype": "int64",
+    "non_numeric_count": 0,
+    "is_actually_binary": false,
+    "examples": [
+      4,
+      4,
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "feature": "f_212",
+    "dtype": "int64",
+    "non_numeric_count": 0,
+    "is_actually_binary": true,
+    "examples": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "feature": "f_150",
+    "dtype": "int64",
+    "non_numeric_count": 0,
+    "is_actually_binary": false,
+    "examples": [
+      10,
+      6,
+      4,
+      9,
+      10
+    ]
+  },
+  {
+    "feature": "f_1",
+    "dtype": "int64",
+    "non_numeric_count": 0,
+    "is_actually_binary": true,
+    "examples": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "feature": "f_26",
+    "dtype": "int64",
+    "non_numeric_count": 0,
+    "is_actually_binary": true,
+    "examples": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "feature": "f_127",
+    "dtype": "int64",
+    "non_numeric_count": 0,
+    "is_actually_binary": true,
+    "examples": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "feature": "f_48",
+    "dtype": "int64",
+    "non_numeric_count": 0,
+    "is_actually_binary": true,
+    "examples": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "feature": "f_207",
+    "dtype": "float64",
+    "non_numeric_count": 0,
+    "is_actually_binary": false,
+    "examples": [
+      106.0162,
+      326.8135,
+      876.5698,
+      500.0001,
+      582.8686
+    ]
+  },
+  {
+    "feature": "f_189",
+    "dtype": "int64",
+    "non_numeric_count": 0,
+    "is_actually_binary": true,
+    "examples": [
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "feature": "f_19",
+    "dtype": "object",
+    "non_numeric_count": 15000,
+    "is_actually_binary": false,
+    "examples": [
+      "c3",
+      "c1",
+      "c2",
+      "c3",
+      "c2"
+    ]
+  },
+  {
+    "feature": "f_97",
+    "dtype": "int64",
+    "non_numeric_count": 0,
+    "is_actually_binary": true,
+    "examples": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "feature": "f_78",
+    "dtype": "object",
+    "non_numeric_count": 15000,
+    "is_actually_binary": false,
+    "examples": [
+      "c0",
+      "c5",
+      "c5",
+      "c5",
+      "c4"
+    ]
+  },
+  {
+    "feature": "f_35",
+    "dtype": "object",
+    "non_numeric_count": 15000,
+    "is_actually_binary": false,
+    "examples": [
+      "c3",
+      "c2",
+      "c4",
+      "c3",
+      "c0"
+    ]
+  },
+  {
+    "feature": "f_122",
+    "dtype": "float64",
+    "non_numeric_count": 0,
+    "is_actually_binary": false,
+    "examples": [
+      1.9208,
+      6.7917,
+      11.0537,
+      -1.5937,
+      3.991
+    ]
+  }
+]

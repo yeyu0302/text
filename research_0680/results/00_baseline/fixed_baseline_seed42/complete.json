@@ -1,0 +1,37 @@
+{
+  "balanced_accuracy": 0.6743039219308855,
+  "accuracy": 0.6748,
+  "macro_f1": 0.6438557355321043,
+  "log_loss": 0.7373625685495988,
+  "recall_1": 0.7408963585434174,
+  "recall_2": 0.5726954492415403,
+  "recall_3": 0.7093199580076985,
+  "level2_to1": 829,
+  "level2_to3": 1002,
+  "predicted_counts": [
+    2949,
+    4868,
+    7183
+  ],
+  "confusion_matrix": [
+    [
+      1587,
+      455,
+      100
+    ],
+    [
+      829,
+      2454,
+      1002
+    ],
+    [
+      533,
+      1959,
+      6081
+    ]
+  ],
+  "name": "fixed_baseline",
+  "seed": 42,
+  "runtime_seconds": 10.994950005988358,
+  "path": "/workspace/text/research_0680/results/00_baseline/fixed_baseline_seed42"
+}

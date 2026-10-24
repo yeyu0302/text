@@ -1,0 +1,48 @@
+{
+  "stage": "S5",
+  "name": "uncertainty_control",
+  "status": "complete",
+  "balanced_accuracy": 0.6898263037138532,
+  "accuracy": 0.6906666666666667,
+  "macro_f1": 0.6614462889614714,
+  "log_loss": 0.7223894359791971,
+  "recall_1": 0.7313432835820896,
+  "recall_2": 0.6246498599439776,
+  "recall_3": 0.7134857676154923,
+  "level2_to1": 172,
+  "level2_to3": 230,
+  "predicted_counts": [
+    704,
+    1265,
+    1781
+  ],
+  "confusion_matrix": [
+    [
+      392,
+      122,
+      22
+    ],
+    [
+      172,
+      669,
+      230
+    ],
+    [
+      140,
+      474,
+      1529
+    ]
+  ],
+  "runtime_seconds": 1.9509624379861634,
+  "config": {
+    "proxy": "V3",
+    "te": "plain",
+    "knn": "none",
+    "model": "spline",
+    "ablate": "none",
+    "strategy": "full",
+    "weights": "none",
+    "residual": false
+  },
+  "interpretation": "EXPLORATORY SINGLE DEVELOPMENT SPLIT; not unbiased OOF"
+}

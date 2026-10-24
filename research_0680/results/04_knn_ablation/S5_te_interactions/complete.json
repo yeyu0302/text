@@ -1,0 +1,48 @@
+{
+  "stage": "S5",
+  "name": "te_interactions",
+  "status": "complete",
+  "balanced_accuracy": 0.6901387003751339,
+  "accuracy": 0.6928,
+  "macro_f1": 0.663096950729658,
+  "log_loss": 0.7247732183585084,
+  "recall_1": 0.7257462686567164,
+  "recall_2": 0.6274509803921569,
+  "recall_3": 0.7172188520765282,
+  "level2_to1": 169,
+  "level2_to3": 230,
+  "predicted_counts": [
+    693,
+    1271,
+    1786
+  ],
+  "confusion_matrix": [
+    [
+      389,
+      128,
+      19
+    ],
+    [
+      169,
+      672,
+      230
+    ],
+    [
+      135,
+      471,
+      1537
+    ]
+  ],
+  "runtime_seconds": 1.6717541410180274,
+  "config": {
+    "proxy": "V0",
+    "te": "plain",
+    "knn": "none",
+    "model": "spline",
+    "ablate": "te_interactions",
+    "strategy": "full",
+    "weights": "none",
+    "residual": false
+  },
+  "interpretation": "EXPLORATORY SINGLE DEVELOPMENT SPLIT; not unbiased OOF"
+}

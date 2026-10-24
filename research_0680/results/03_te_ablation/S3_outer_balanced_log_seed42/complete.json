@@ -1,0 +1,41 @@
+{
+  "balanced_accuracy": 0.672865832193765,
+  "accuracy": 0.6710666666666667,
+  "macro_f1": 0.6408267370323952,
+  "log_loss": 0.7318605675087086,
+  "recall_1": 0.7418300653594772,
+  "recall_2": 0.5757292882147025,
+  "recall_3": 0.7010381430071153,
+  "level2_to1": 838,
+  "level2_to3": 980,
+  "predicted_counts": [
+    2992,
+    4926,
+    7082
+  ],
+  "confusion_matrix": [
+    [
+      1589,
+      461,
+      92
+    ],
+    [
+      838,
+      2467,
+      980
+    ],
+    [
+      565,
+      1998,
+      6010
+    ]
+  ],
+  "name": "S3_outer_balanced_log",
+  "seed": 42,
+  "runtime_seconds": 10.962347917025909,
+  "path": "/workspace/text/research_0680/results/03_te_ablation/S3_outer_balanced_log_seed42",
+  "delta": -0.0014380897371204248,
+  "ci_low": -0.0040614551130289,
+  "ci_high": 0.001213628185211091,
+  "draws": 1000
+}

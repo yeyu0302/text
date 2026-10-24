@@ -1,0 +1,23 @@
+.......                                                                  [100%]
+=============================== warnings summary ===============================
+research_0680/tests/test_no_target_leakage.py: 72 warnings
+  /workspace/text/research_0680/src/train_baseline.py:71: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+    mean=x[g].map(mapping[c]).fillna(fallback[c]);out[g+'_mean_'+c]=mean
+
+research_0680/tests/test_no_target_leakage.py: 36 warnings
+  /workspace/text/research_0680/src/train_baseline.py:72: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+    if c in ['clean_age','clean_height','clean_area','weak_masonry_score']:out[g+'_diff_'+c]=out[c]-mean
+
+research_0680/tests/test_no_target_leakage.py::test_validation_labels_and_covariates_do_not_affect_fit_features
+research_0680/tests/test_no_target_leakage.py::test_validation_labels_and_covariates_do_not_affect_fit_features
+research_0680/tests/test_no_target_leakage.py::test_validation_labels_and_covariates_do_not_affect_fit_features
+research_0680/tests/test_no_target_leakage.py::test_validation_labels_and_covariates_do_not_affect_fit_features
+research_0680/tests/test_no_target_leakage.py::test_validation_labels_and_covariates_do_not_affect_fit_features
+research_0680/tests/test_no_target_leakage.py::test_validation_labels_and_covariates_do_not_affect_fit_features
+research_0680/tests/test_no_target_leakage.py::test_validation_labels_and_covariates_do_not_affect_fit_features
+research_0680/tests/test_no_target_leakage.py::test_validation_labels_and_covariates_do_not_affect_fit_features
+  /workspace/text/research_0680/src/train_baseline.py:69: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+    out[g+'_count']=np.log1p(x[g].map(count).fillna(0))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+7 passed, 116 warnings in 3.27s

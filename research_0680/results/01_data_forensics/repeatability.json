@@ -1,0 +1,7 @@
+{
+  "max_absolute_probability_difference": 0.0,
+  "runtime_seconds": 0.8560862599988468,
+  "train_rows": 1500,
+  "query_rows": 300,
+  "fresh_transform_and_model_refits": 2
+}

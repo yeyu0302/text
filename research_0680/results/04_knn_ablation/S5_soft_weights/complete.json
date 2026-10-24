@@ -1,0 +1,48 @@
+{
+  "stage": "S5",
+  "name": "soft_weights",
+  "status": "complete",
+  "balanced_accuracy": 0.6874922545241042,
+  "accuracy": 0.6882666666666667,
+  "macro_f1": 0.6594177319550444,
+  "log_loss": 0.7219412434816697,
+  "recall_1": 0.7313432835820896,
+  "recall_2": 0.6190476190476191,
+  "recall_3": 0.7120858609426038,
+  "level2_to1": 175,
+  "level2_to3": 233,
+  "predicted_counts": [
+    702,
+    1266,
+    1782
+  ],
+  "confusion_matrix": [
+    [
+      392,
+      121,
+      23
+    ],
+    [
+      175,
+      663,
+      233
+    ],
+    [
+      135,
+      482,
+      1526
+    ]
+  ],
+  "runtime_seconds": 2.854083833983168,
+  "config": {
+    "proxy": "V0",
+    "te": "plain",
+    "knn": "none",
+    "model": "spline",
+    "ablate": "none",
+    "strategy": "full",
+    "weights": "soft",
+    "residual": false
+  },
+  "interpretation": "EXPLORATORY SINGLE DEVELOPMENT SPLIT; not unbiased OOF"
+}
