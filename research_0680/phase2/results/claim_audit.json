@@ -1,0 +1,33 @@
+{
+  "predictor_count": 238,
+  "train_rows": 15000,
+  "fine_groups": 945,
+  "test_fraction_train_group_count_le15": 0.4576470588235294,
+  "full_raw_X_duplicate_rows": 0,
+  "anomaly_flag_any_row": 0.1196,
+  "anomaly_flag_cell_fraction": 0.030933333333333334,
+  "anomaly_by_column": {
+    "age": 0.05893333333333333,
+    "storey": 0.0036666666666666666,
+    "area": 0.004666666666666667,
+    "height": 0.056466666666666665
+  },
+  "individual_age_proxy_residual_sd": {
+    "f_168": 52.639370049589566,
+    "f_210": 52.723172785951405,
+    "f_65": 52.74892784021848,
+    "f_118": 52.92245901307956,
+    "f_108": 52.413338465808756,
+    "f_76": 52.820722506207,
+    "f_64": 52.486555167287804,
+    "f_231": 52.496560802298
+  },
+  "mean_age_proxy_mae": 14.796734461780957,
+  "mean_age_proxy_residual_sd": 18.679461839589187,
+  "disclaimers": [
+    "Anomaly flags do not establish deliberate contamination",
+    "MAE is not an irreducible error bound",
+    "No universal Bayes ceiling follows from partial-feature duplicates",
+    "235 columns/175 pure-noise features is not an established fact; actual predictors=238"
+  ]
+}

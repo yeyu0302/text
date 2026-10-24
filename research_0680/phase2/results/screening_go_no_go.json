@@ -1,0 +1,8 @@
+{
+  "posterior_gain": -8.708596851301955e-07,
+  "posterior_promoted": false,
+  "formal_rules": [
+    "conditional"
+  ],
+  "reason": "Stop weak route at screening; no global winning penalty or weight is passed into outer selection"
+}

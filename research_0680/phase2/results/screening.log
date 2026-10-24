@@ -1,0 +1,9 @@
+PHASE2 SCREEN 0 {'kind': 'reference'} 0.6878030546996149
+PHASE2 SCREEN 1 {'kind': 'posterior'} 0.6878021838399296
+PHASE2 SCREEN 2 {'kind': 'physical'} 0.5169933633100253
+PHASE2 SCREEN 3 {'kind': 'hierarchy', 'penalty': 2} 0.6801829362645618
+PHASE2 SCREEN 4 {'kind': 'hierarchy', 'penalty': 8} 0.6806487009625063
+PHASE2 SCREEN 5 {'kind': 'hierarchy', 'penalty': 32} 0.6678932673849665
+PHASE2 SCREEN 6 {'kind': 'mixture', 'penalty': 8, 'weight': 0.25} 0.6924708628828705
+PHASE2 SCREEN 7 {'kind': 'mixture', 'penalty': 8, 'weight': 0.5} 0.6851616895859703
+PHASE2 SCREEN 8 {'kind': 'mixture', 'penalty': 8, 'weight': 0.75} 0.6860935089071432

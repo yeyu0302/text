@@ -1,0 +1,12 @@
+{
+  "decisions": [
+    {
+      "rule": "conditional",
+      "passed": false,
+      "gate": "Both seeds: delta > 0.001 and ordinary paired bootstrap 95% CI lower > 0",
+      "candidate": null
+    }
+  ],
+  "known_kaggle_score": "0.679: reported by user, no new Kaggle score measured",
+  "baseline_limitation": "Uploaded .679-generating source fails on the current dataset; formal reference is a separately frozen reproducible model"
+}

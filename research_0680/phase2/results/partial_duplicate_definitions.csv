@@ -1,0 +1,7 @@
+mode,floor_columns,columns,conflicting_groups,conflicting_rows,empirical_majority_in_conflict,in_sample_majority_all_rows,interpretation
+raw,f_69,"['f_141', 'structure_age', 'storey_count', 'f_182', 'f_214', 'roofing_kind', 'f_62', 'f_69']",539,1360,0.5823529411764706,0.9621333333333333,"Subset-cell in-sample statistic, NOT Bayes ceiling for full observed X"
+raw,f_209,"['f_141', 'structure_age', 'storey_count', 'f_182', 'f_214', 'roofing_kind', 'f_62', 'f_209']",462,1131,0.5702917771883289,0.9676,"Subset-cell in-sample statistic, NOT Bayes ceiling for full observed X"
+raw,f_69+f_209,"['f_141', 'structure_age', 'storey_count', 'f_182', 'f_214', 'roofing_kind', 'f_62', 'f_69', 'f_209']",365,864,0.5625,0.9748,"Subset-cell in-sample statistic, NOT Bayes ceiling for full observed X"
+cleaned,f_69,"['f_141', 'structure_age', 'storey_count', 'f_182', 'f_214', 'roofing_kind', 'f_62', 'f_69']",567,1443,0.5835065835065835,0.9599333333333333,"Subset-cell in-sample statistic, NOT Bayes ceiling for full observed X"
+cleaned,f_209,"['f_141', 'structure_age', 'storey_count', 'f_182', 'f_214', 'roofing_kind', 'f_62', 'f_209']",495,1210,0.5702479338842975,0.9653333333333334,"Subset-cell in-sample statistic, NOT Bayes ceiling for full observed X"
+cleaned,f_69+f_209,"['f_141', 'structure_age', 'storey_count', 'f_182', 'f_214', 'roofing_kind', 'f_62', 'f_69', 'f_209']",389,918,0.5610021786492375,0.9731333333333333,"Subset-cell in-sample statistic, NOT Bayes ceiling for full observed X"
