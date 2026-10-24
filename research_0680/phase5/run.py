@@ -58,6 +58,12 @@ def predict_pair(x,y,q):
         results[name]=model.predict_proba(b)
     return results
 
+def predict_selected(x,y,q,choice):
+    a,b=designs(x,q)[choice]
+    model=LogisticRegression(C=.05,class_weight='balanced',max_iter=600,tol=1e-4).fit(a,y)
+    assert max(model.n_iter_)<600
+    return model.predict_proba(b)
+
 def cached_inner(seed,fold,train_ids,val_ids):
     path=INNER_REFERENCE/f'nested_seed{seed}'/f'choice{fold}.json';record=json.loads(path.read_text())
     assert record['train_id_sha256']==digest(train_ids) and record['validation_id_sha256']==digest(val_ids)
@@ -81,9 +87,8 @@ def outer(seed):
                 old=np.load(REFERENCE/f'fixed_baseline_seed{seed}'/f'fold_{fold}.npz');assert np.array_equal(old['val_ids'],x.id.iloc[v])
                 result=old['p'];test_result=old['test']
             else:
-                a,b=designs(x.iloc[t],pd.concat([x.iloc[v],test],ignore_index=True))[choice]
-                model=LogisticRegression(C=.05,class_weight='balanced',max_iter=600,tol=1e-4).fit(a,y[t]);assert max(model.n_iter_)<600
-                result=model.predict_proba(b);result,test_result=result[:len(v)],result[len(v):]
+                result=predict_selected(x.iloc[t],y[t],pd.concat([x.iloc[v],test],ignore_index=True),choice)
+                result,test_result=result[:len(v)],result[len(v):]
             np.savez_compressed(cache,p=result,test=test_result,ids=x.id.iloc[v])
             dump(dest/f'choice{fold}.json',dict(choice=choice,means=means,inner_scores=values,reference=provenance,
                 train_id_sha256=digest(x.id.iloc[t]),val_id_sha256=digest(x.id.iloc[v])))

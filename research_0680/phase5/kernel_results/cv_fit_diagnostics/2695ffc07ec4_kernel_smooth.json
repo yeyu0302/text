@@ -1,0 +1,10 @@
+[
+  {
+    "model": "kernel_smooth",
+    "iterations": [
+      82
+    ],
+    "features": 480,
+    "runtime_seconds": 0.9603840339987073
+  }
+]

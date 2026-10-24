@@ -1,0 +1,4 @@
+{
+  "passed": false,
+  "reason": "Confirmation only after positive primary CI; no weak-route reruns"
+}

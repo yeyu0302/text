@@ -1,0 +1,27 @@
+{
+  "choice": "kernel_local",
+  "means": {
+    "kernel_local": 0.6744249831470406,
+    "kernel_smooth": 0.6727712492764542
+  },
+  "inner_scores": {
+    "kernel_local": [
+      0.6724314393930371,
+      0.676418526901044
+    ],
+    "kernel_smooth": [
+      0.6702914566639886,
+      0.6752510418889198
+    ]
+  },
+  "reference": {
+    "source": "phase3/results/nested_seed42/choice2.json",
+    "source_sha256": "7d12fc0994eb33906df1efdd7987b07bdcf2e43be66730a2da10745afa522ff1",
+    "scores": [
+      0.6717514793342391,
+      0.6750570187542841
+    ]
+  },
+  "train_id_sha256": "ea1e2ee0901ba1abf966c83d0fad0fbe42134be718401460917ca4c5fe2ed923",
+  "val_id_sha256": "ae51af2f8c3eb1b11f44a8caaf77ad1f477358b6df3867ae9218425cc8bf17e0"
+}
