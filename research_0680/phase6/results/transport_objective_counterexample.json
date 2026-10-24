@@ -1,0 +1,37 @@
+{
+  "probabilities": [
+    [
+      0.0813199199588656,
+      0.4893056438083282,
+      0.42937443623280636
+    ],
+    [
+      0.12541257044280205,
+      0.4641339536112756,
+      0.41045347594592246
+    ],
+    [
+      0.2299315091092318,
+      0.7066999659459284,
+      0.06336852494483967
+    ]
+  ],
+  "counts": [
+    1,
+    1,
+    1
+  ],
+  "accuracy_assignment": [
+    2,
+    0,
+    1
+  ],
+  "log_assignment": [
+    1,
+    2,
+    0
+  ],
+  "expected_correct_accuracy": 1.2614869726215368,
+  "expected_correct_log": 1.1296906288634825,
+  "note": "Mathematical counterexample only, no actual test labels or score estimate"
+}

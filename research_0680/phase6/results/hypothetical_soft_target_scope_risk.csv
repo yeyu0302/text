@@ -1,0 +1,6 @@
+fold,train_rows,rows_affected_if_targets_were_precomputed_globally,shared_signatures
+0,12000,228,443
+1,12000,263,446
+2,12000,242,449
+3,12000,256,440
+4,12000,251,414

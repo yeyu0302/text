@@ -1,0 +1,18 @@
+[
+  {
+    "model": "kernel_local",
+    "iterations": [
+      72
+    ],
+    "features": 480,
+    "runtime_seconds": 0.31948518499848433
+  },
+  {
+    "model": "kernel_smooth",
+    "iterations": [
+      56
+    ],
+    "features": 480,
+    "runtime_seconds": 0.29660799499833956
+  }
+]

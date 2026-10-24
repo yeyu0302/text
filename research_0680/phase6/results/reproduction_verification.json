@@ -1,0 +1,15 @@
+{
+  "fresh_run_passed": true,
+  "compared_csv_files": [
+    "wiener_summary.csv",
+    "measurement_errors.csv",
+    "submission_summary.csv",
+    "label_transitions.csv",
+    "per_id_changes.csv",
+    "change_subgroups.csv",
+    "bbse_prior_diagnostic.csv"
+  ],
+  "tests": "............                                                             [100%]\n12 passed in 0.60s",
+  "nonempty_output_guard_passed": true,
+  "no_damage_classifier_training": true
+}

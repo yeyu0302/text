@@ -1,0 +1,8 @@
+{
+  "registered_after_primary_before_second_seed": true,
+  "primary_known": {"balanced_accuracy": 0.6773760712616287, "delta": 0.003072149330743313, "ci_low": -0.0003743324891524796},
+  "change": "Add one exploratory seed2026 run despite primary CI crossing zero; no bandwidths, features, fitting, or original statistical gate are changed.",
+  "reason": "User requests a higher-scoring genuinely new route; positive primary delta > .003 warrants a bounded ~30-second stability check instead of retrying failed old families.",
+  "limitations": "This deviates from the original compute stop rule, does not make primary statistically significant, and is not independently preregistered confirmation. Do not overwrite the original gate/comparison files.",
+  "export_policy": "If both seeds are positive, an explicitly experimental full-train kernel CSV may be delivered under the user's existing request; never label it statistically validated unless the unchanged gate passes."
+}

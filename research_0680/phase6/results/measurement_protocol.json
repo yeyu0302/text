@@ -1,0 +1,15 @@
+{
+  "rows": 20100,
+  "fit_uses_damage_labels": false,
+  "folds": 5,
+  "seed": 813,
+  "interpretation": "LMMSE affine estimator; equals full MMSE only under appropriate joint distribution assumptions",
+  "silver_reference": "Main fields within predeclared valid ranges; not confirmed latent ground truth",
+  "full_fit_scope": "Explicitly transductive X-only fit on train+test, in-sample reconstruction reported separately",
+  "oof_scope": "Held-out physical main value never enters coefficient/prior fitting; only proxies predict it",
+  "target_claims": {
+    "age_rmse_reduction_pct": 22.2,
+    "height_rmse_reduction_pct": 38.9
+  },
+  "limitation": "Actual corrupted main values have no known true physical values; their RMSE and the supplied unpublished filter cannot be directly verified. No damage classifier was retrained."
+}

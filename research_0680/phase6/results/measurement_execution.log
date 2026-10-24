@@ -1,0 +1,17 @@
+       source                    method      subset     n      rmse       mae          bias  rmse_reduction_vs_proxy_mean_pct
+        f_165      legacy_masked_repair         all 18952  7.562655  5.945547  4.520895e-01                         11.487594
+        f_165      legacy_masked_repair height_ge28   556  9.317733  7.187050 -1.834532e+00                         17.957790
+        f_165 lmmse_full20100_in_sample         all 18952  4.615746  3.515361 -1.847591e-15                         45.977869
+        f_165 lmmse_full20100_in_sample height_ge28   556 12.975822 11.760135 -1.167662e+01                        -14.251520
+        f_165                 lmmse_oof         all 18952  4.617746  3.516884  8.382300e-05                         45.954458
+        f_165                 lmmse_oof height_ge28   556 12.978310 11.762515 -1.167780e+01                        -14.273429
+        f_165            raw_proxy_mean         all 18952  8.544175  6.410742  1.227933e-01                          0.000000
+        f_165            raw_proxy_mean height_ge28   556 11.357243  7.417854 -1.483479e+00                          0.000000
+structure_age      legacy_masked_repair         all 18924 16.378883 12.194568  2.319277e+00                         12.752794
+structure_age      legacy_masked_repair    age_ge80   346 26.265650 17.254335 -8.930636e+00                          5.328620
+structure_age lmmse_full20100_in_sample         all 18924 13.254865  9.936695 -6.728454e-16                         29.393848
+structure_age lmmse_full20100_in_sample    age_ge80   346 46.405055 40.726531 -4.072653e+01                        -67.261443
+structure_age                 lmmse_oof         all 18924 13.263850  9.944537  2.722175e-04                         29.345983
+structure_age                 lmmse_oof    age_ge80   346 46.443801 40.768890 -4.076889e+01                        -67.401099
+structure_age            raw_proxy_mean         all 18924 18.772960 14.884219 -5.676513e-02                          0.000000
+structure_age            raw_proxy_mean    age_ge80   346 27.744024 19.856806 -6.132750e+00                          0.000000

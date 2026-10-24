@@ -1,0 +1,9 @@
+{
+  "score_source": "User reported",
+  "test_labels_available": false,
+  "net_level2_reduction_5_to6": 146,
+  "level2_exits_5_to6": 151,
+  "level2_entries_5_to6": 5,
+  "total_changes_5_to6": 160,
+  "warning": "Net label-count reduction is not a count of corrected false positives. Soft-target scope table is a hypothetical risk demonstration, not a finding that the unavailable latest implementation leaked."
+}

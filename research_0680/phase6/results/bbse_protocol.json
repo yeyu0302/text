@@ -1,0 +1,12 @@
+{
+  "source": "Lipton, Wang & Smola 2018, Sections 3-5",
+  "assumptions": [
+    "Class-conditional raw feature distributions are invariant between train and test",
+    "Every target class exists in source",
+    "Soft confusion matrix invertible"
+  ],
+  "scope": "Each fold source OOF and test prediction uses the same trained classifier and feature/TE map; class-conditional matrices averaged equally across folds",
+  "bootstrap": "1000 conditional source-within-class-within-fold and unlabeled-test row resamples; does not include retraining uncertainty",
+  "not_available_for_original_submission3": "Matching original OOF/probabilities missing; cannot transplant another model confusion matrix",
+  "limitation": "This does not prove label shift assumptions, exact 1700 counts, any individual test label, or accuracy improvement. No correction applied to a submission."
+}

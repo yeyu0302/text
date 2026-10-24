@@ -1,0 +1,65 @@
+{
+  "inputs": [
+    {
+      "file": "submission_3.csv",
+      "source_path": "/workspace/attachments/c7bf6a9b-8b83-4ad9-bb42-ce5dc4054e47/submission (3).csv",
+      "bytes": 34602,
+      "sha256": "61d3d73ee03aeb8bacf938fbdd2fa9673e38a7b7016d3aeaddf22c6413ebdc1f"
+    },
+    {
+      "file": "submission_4.csv",
+      "source_path": "/workspace/attachments/0ba31e0d-1f54-40fe-b0c5-2d660c740599/submission (4).csv",
+      "bytes": 34602,
+      "sha256": "3018ea882ec58d5c164c5526decec25ec063e3879359477078e2cb55550dc22c"
+    },
+    {
+      "file": "submission_5.csv",
+      "source_path": "/workspace/attachments/2ac7bd2d-32d0-49bf-8e90-5f8fca15f8bc/submission (5).csv",
+      "bytes": 34602,
+      "sha256": "89ce934ac08201b7d240e85b138eab9443494531e010357230d438d105f95f09"
+    },
+    {
+      "file": "submission_6.csv",
+      "source_path": "/workspace/attachments/82d86a54-5a5e-4741-ada9-9efe0f4082a4/submission (6).csv",
+      "bytes": 34602,
+      "sha256": "d2f6fb6377f6b0de49223ca2624d7b998bcfecb39cc9e364c1af03d6867ba359"
+    },
+    {
+      "file": "report_4.md",
+      "source_path": "/workspace/attachments/0f17ad30-b8d0-4bdc-b9e1-e826428893b6/methodology_report (4).md",
+      "bytes": 11297,
+      "sha256": "b8ce41643a99a0056c075de81f010da1f525ebb6358fe1e1243dc25b18125d98"
+    },
+    {
+      "file": "report_5.md",
+      "source_path": "/workspace/attachments/4577fd63-8ff4-44d8-b4cf-c7f849fc6e25/methodology_report (5).md",
+      "bytes": 11297,
+      "sha256": "b8ce41643a99a0056c075de81f010da1f525ebb6358fe1e1243dc25b18125d98"
+    },
+    {
+      "file": "main.pdf",
+      "source_path": "/workspace/attachments/bb83c6b9-3946-49fb-9d11-d543a558b471/main.pdf",
+      "bytes": 3119913,
+      "sha256": "0e6f05f8b35469f5d5669bd55c8a6a9876e38011233388c354cffdcc7c671025",
+      "redistributed": false
+    },
+    {
+      "file": "report_for_submission3_user.md",
+      "source_path": "/workspace/attachments/d7f6843d-550d-4222-af44-bdfccde72eae/methodology_report (6).md",
+      "bytes": 11297,
+      "sha256": "b8ce41643a99a0056c075de81f010da1f525ebb6358fe1e1243dc25b18125d98",
+      "user_declared_association": "submission (3)",
+      "content": "Byte-identical to reports 4 and 5; V7 final counts match submission (5), not (3)"
+    }
+  ],
+  "user_reported_kaggle_scores": {
+    "3": 0.679,
+    "4": 0.677,
+    "5": 0.675,
+    "6": 0.672
+  },
+  "score_source": "User report; not independently queried from Kaggle",
+  "source_code_for_3": "Not supplied; newest report is identical V7 narrative and not executable source",
+  "reports_4_and_5_identical": true,
+  "reports_4_5_6_identical": true
+}

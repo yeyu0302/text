@@ -1,0 +1,4 @@
+# Sources and actual access
+- Chi et al. 2020. DOI 10.1016/j.autcon.2020.103274. User-provided main.pdf read through extracted text. Original PDF is not redistributed. File provenance is in ../inputs.json.
+- Lipton, Wang, Smola 2018. PMLR 80:3122–3130. https://proceedings.mlr.press/v80/lipton18a.html . Official primary PDF retrieved from https://raw.githubusercontent.com/mlresearch/v80/gh-pages/lipton18a/lipton18a.pdf ; abstract and relevant method sections read. Local PDF cache is excluded from Git and the download bundle. Official metadata retained in lipton_metadata.md.
+- Cawley, Talbot 2010. JMLR 11:2079–2107. https://www.jmlr.org/papers/v11/cawley10a.html . Primary PDF blocked by remote service; full-text reading is not claimed. Citation and nested validation principle checked against official scikit-learn example: https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/examples/model_selection/plot_nested_cross_validation_iris.py .

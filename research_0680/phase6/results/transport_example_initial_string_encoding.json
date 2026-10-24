@@ -1,0 +1,21 @@
+{
+  "probabilities": "[[0.08131992 0.48930564 0.42937444]\n [0.12541257 0.46413395 0.41045348]\n [0.22993151 0.70669997 0.06336852]]",
+  "counts": [
+    1,
+    1,
+    1
+  ],
+  "accuracy_assignment": [
+    2,
+    0,
+    1
+  ],
+  "log_assignment": [
+    1,
+    2,
+    0
+  ],
+  "expected_correct_accuracy": 1.2614869726215368,
+  "expected_correct_log": 1.1296906288634825,
+  "note": "Mathematical counterexample only, no actual test labels or score estimate"
+}

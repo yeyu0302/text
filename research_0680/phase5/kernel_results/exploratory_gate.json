@@ -1,0 +1,5 @@
+{
+  "passed": false,
+  "exploratory": true,
+  "reason": "Original statistical gate unchanged; optional stability check declared in exploratory_amendment.json"
+}

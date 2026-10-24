@@ -1,0 +1,39 @@
+{
+  "signature": [
+    "f_141",
+    "structure_age",
+    "storey_count",
+    "f_182",
+    "f_214",
+    "roofing_kind",
+    "f_105",
+    "f_209"
+  ],
+  "omitted": [
+    "footprint_area",
+    "f_165",
+    "f_119",
+    "f_199",
+    "f_103",
+    "f_113",
+    "f_124",
+    "f_175",
+    "f_23",
+    "f_104",
+    "f_226",
+    "f_1",
+    "f_75",
+    "f_26",
+    "f_127",
+    "f_48",
+    "terrain_slope",
+    "f_13",
+    "f_45",
+    "f_62",
+    "f_69"
+  ],
+  "conflict_groups": 464,
+  "conflict_rows": 1107,
+  "conflict_groups_with_omitted_physical_variation": 464,
+  "interpretation": "Partial signature conflicts do not establish erroneous labels or a Bayes ceiling for the full X"
+}

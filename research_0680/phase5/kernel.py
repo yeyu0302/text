@@ -42,7 +42,7 @@ def predictions(x,y,q,models=None):
     if not path.exists():dump(path,diagnostics)
     return result
 
-def validate():
+def validate(exploratory=False):
     runner.OUT=OUT
     runner.PROTOCOL=dict(PROTOCOL,models=list(PROTOCOL['models']),bandwidths=PROTOCOL['models'],
         backend_source_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),screen_snapshot_commit='6621ae5',
@@ -50,10 +50,12 @@ def validate():
     runner.predict_pair=predictions
     runner.predict_selected=lambda x,y,q,name:predictions(x,y,q,[name])[name]
     rows=[runner.outer(42)]
-    if rows[0]['delta']>.001 and rows[0]['ci_low']>0:rows.append(runner.outer(2026))
-    pd.DataFrame(rows).to_csv(OUT/'comparison.csv',index=False)
+    if rows[0]['delta']>.001 and (rows[0]['ci_low']>0 or exploratory):rows.append(runner.outer(2026))
+    name='exploratory_comparison.csv' if exploratory else 'comparison.csv'
+    pd.DataFrame(rows).to_csv(OUT/name,index=False)
     passed=len(rows)==2 and all(r['delta']>.001 and r['ci_low']>0 for r in rows)
-    dump(OUT/'validation_gate.json',dict(passed=passed,reason='Confirmation only after positive primary CI; no weak-route reruns'))
+    gate='exploratory_gate.json' if exploratory else 'validation_gate.json'
+    dump(OUT/gate,dict(passed=passed,exploratory=exploratory,reason='Original statistical gate unchanged; optional stability check declared in exploratory_amendment.json'))
     if not passed:return
     x,y,test,sample=read_data();values={m:[] for m in PROTOCOL['models']}
     for t,v in StratifiedKFold(2,shuffle=True,random_state=391).split(x,y):
@@ -70,14 +72,16 @@ def validate():
     path=OUT/'submission_candidate_phase5_kernel.csv';assert not path.exists(),'Preserve existing candidate'
     sample['label']=p.argmax(1)+1;sample.to_csv(path,index=False)
     pd.DataFrame(dict(id=test.id,p1=p[:,0],p2=p[:,1],p3=p[:,2])).to_csv(OUT/'candidate_probabilities.csv',index=False)
-    print('VALIDATED KERNEL CANDIDATE',choice,path,flush=True)
+    dump(OUT/'candidate_status.json',dict(statistical_gate_passed=passed,experimental=not passed,measured_kaggle_score=None,
+        choice=choice,protocol=PROTOCOL,exploratory=exploratory))
+    print('KERNEL CANDIDATE',choice,path,'statistical gate',passed,flush=True)
 
 if __name__=='__main__':
     OUT.mkdir(parents=True,exist_ok=True);x,y,_,_=read_data();t,v=train_test_split(np.arange(len(y)),test_size=.25,stratify=y,random_state=847)
     old=np.load(INNER_REFERENCE/'screen/probabilities.npz');assert np.array_equal(old['ids'],x.id.iloc[v])
     if (OUT/'screen.csv').exists():
         assert json.loads((OUT/'manifest.json').read_text())['protocol']==PROTOCOL
-        if bool(json.loads((OUT/'gate.json').read_text())['promoted']):validate()
+        if bool(json.loads((OUT/'gate.json').read_text())['promoted']):validate(os.environ.get('RESEARCH0680_PHASE5_EXPLORATORY_CONFIRM')=='1')
         raise SystemExit(0)
     tick=time.perf_counter();pred=predictions(x.iloc[t],y[t],x.iloc[v]);rows=[]
     np.savez_compressed(OUT/'screen_probabilities.npz',ids=x.id.iloc[v],**pred)
@@ -87,3 +91,4 @@ if __name__=='__main__':
     promoted=max(r['delta'] for r in rows)>.002
     dump(OUT/'gate.json',dict(promoted=promoted,reason='Stop unless new screening delta > .002; no old-model fitting'))
     print('KERNEL SCREEN',[(r['model'],r['balanced_accuracy'],r['delta']) for r in rows],flush=True)
+    if promoted:validate(os.environ.get('RESEARCH0680_PHASE5_EXPLORATORY_CONFIRM')=='1')
