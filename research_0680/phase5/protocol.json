@@ -1,0 +1,19 @@
+{
+  "frozen_before_scores": true,
+  "hypothesis": "Jointly estimate physical effects, nested geographic random intercepts, and region-specific material/age slopes in one penalized multinomial likelihood. No target encoding.",
+  "new_vs_failed": "Phase2 fitted post-hoc regional intercepts on cross-fitted physical predictions. Phase5 optimizes all physical and geographic coefficients simultaneously and tests varying physical slopes. No posterior proxy repair, KNN, global TE expansions, tree/MLP, loss/threshold/quota search, or probability pooling.",
+  "models": ["joint_intercepts", "joint_varying_slopes"],
+  "global_C": 0.05,
+  "class_weight": "balanced",
+  "geo_scales": {"f_90": 5.0, "f_109": 3.0, "f_141": 4.0},
+  "macro_slopes": ["log_clean_age", "clean_storey", "slenderness", "weak_masonry_score", "f_182", "f_214", "f_199", "f_124"],
+  "meso_slopes": ["f_182", "f_214"],
+  "slope_scales": {"macro": 2.0, "meso": 1.0},
+  "inner_folds": 2,
+  "inner_seed": 391,
+  "outer_seeds": [42, 2026],
+  "screening": "Same historical seed847 holdout; require best new delta > .002, otherwise stop after two fits. Reuse frozen reference screening probabilities.",
+  "promotion": "Run seed2026 only if seed42 delta > .001 and bootstrap CI lower > 0. Candidate recommendation requires both seeds delta > .001 and CI lower > 0.",
+  "compute": "Two small sparse convex models. Reuse prior reference inner scores/outer probabilities after verifying row hashes and split protocol; do not retrain failed old models. No hyperparameter sweep.",
+  "history": "Sequential hypotheses on historically used data. Proper fold isolation does not erase historical selection exposure. No actual new Kaggle score is measured."
+}

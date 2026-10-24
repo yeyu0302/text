@@ -1,0 +1,5 @@
+{
+  "promoted": false,
+  "reason": "No new screening gain > .002; stopped after two fits",
+  "new_model_fits": 2
+}

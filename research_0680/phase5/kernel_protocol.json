@@ -1,0 +1,15 @@
+{
+  "frozen_before_scores": true,
+  "hypothesis": "Low-rank multivariate RBF kernel captures smooth joint relationships rather than additive/hand-selected interactions or a trained hidden network.",
+  "new_vs_failed": "No kernel classifier or Nystroem map was used before. Physical regional KNN did not use this learned global RKHS classifier; MLP used learned hidden weights rather than a fixed positive-definite kernel.",
+  "models": {"kernel_local": 2.0, "kernel_smooth": 8.0},
+  "gamma": "1 / (scale * feature count)",
+  "n_components": 384,
+  "C": 1.0,
+  "class_weight": "balanced",
+  "linear_skip_scale": 0.1,
+  "features": "Frozen CORE55 plus existing categorical one-hot indicators; no raw noise, new feature selection, proxy repair or probability pooling",
+  "screening": "Reuse saved reference on historical seed847 holdout; require delta > .002 before considering outer validation",
+  "compute": "Two fixed bandwidths, no old-model fitting, no grid expansion. Training-only scales and unsupervised kernel landmark fitting.",
+  "history": "Exploratory, no blind new data and no measured Kaggle score."
+}

@@ -1,0 +1,2 @@
+-r ../configs/requirements.txt
+interpret-core==0.7.8

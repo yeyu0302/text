@@ -1,0 +1,16 @@
+[
+  {
+    "model": "ordinal_shared_width",
+    "success": true,
+    "iterations": 125,
+    "loss": 0.7046965393398377,
+    "max_gradient": 2.5342702277133394e-05
+  },
+  {
+    "model": "ordinal_macro_width",
+    "success": true,
+    "iterations": 135,
+    "loss": 0.7027270297841822,
+    "max_gradient": 0.00018173556349237522
+  }
+]

@@ -1,0 +1,4 @@
+{
+  "promoted": false,
+  "reason": "Proceed only if new screening delta > .002; no failed old models rerun"
+}

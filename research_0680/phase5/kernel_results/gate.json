@@ -1,0 +1,4 @@
+{
+  "promoted": true,
+  "reason": "Stop unless new screening delta > .002; no old-model fitting"
+}

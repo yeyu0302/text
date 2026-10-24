@@ -1,0 +1,12 @@
+{
+  "frozen_before_scores": true,
+  "hypothesis": "A single latent damage predictor with ordered cutpoints shares all physical/geographic slopes across class boundaries. Macro-specific Level2 interval widths test non-proportional uncertainty with only 11 extra parameters.",
+  "new_vs_failed": "Earlier ordinal models trained independent cumulative binary classifiers. This is one jointly optimized ordered likelihood, coupled location and positive threshold width, and no target encoding. It is not another GBDT/MLP/TE/weight search.",
+  "models": ["ordinal_shared_width", "ordinal_macro_width"],
+  "physical_and_geo_design": "Exactly the predeclared X-only joint_intercepts design of phase5, plus an unpenalized global intercept",
+  "width": "0.05 + softplus(global width [+ macro one-hot coefficients])",
+  "penalty": "20 / n on physical/geographic coefficients and macro width coefficients; intercepts unpenalized",
+  "optimizer": {"maxiter": 180, "gtol": 0.00001, "ftol": 1e-8},
+  "screening": "Reuse same fixed holdout reference, require new delta > .002; stop if absent",
+  "history": "Sequential research; no independent blind test or measured Kaggle score. No label modifications or old-model retraining."
+}

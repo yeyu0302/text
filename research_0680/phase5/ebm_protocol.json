@@ -1,0 +1,12 @@
+{
+  "frozen_before_scores": true,
+  "hypothesis": "A bagged smooth additive model learns local nonparametric effects; eight automatically selected pair functions test low-dimensional nonlinear interactions without a deep tree or MLP.",
+  "new_vs_failed": "No EBM was used in prior rounds. This is a cyclic additive/pairwise functional model, not another CatBoost/HGB parameter or mixture search. The exact 63-column input matches prior compact CatBoost for a cached secondary control.",
+  "models": {"ebm_additive": 0, "ebm_pairs": 8},
+  "params": {"max_bins": 64, "max_interaction_bins": 16, "outer_bags": 4, "inner_bags": 0, "learning_rate": 0.035, "greedy_ratio": 0, "cyclic_progress": true, "smoothing_rounds": 50, "interaction_smoothing_rounds": 50, "max_rounds": 600, "early_stopping_rounds": 50, "min_samples_leaf": 30, "reg_lambda": 5, "max_leaves": 3, "n_jobs": 2, "random_state": 913},
+  "package": "interpret-core==0.7.8",
+  "features": "Same pre-existing CORE55 plus eight original nominal categorical fields; no feature or proxy experiment and no ID predictor",
+  "validation": "All model fitting, pair selection and internal early stopping stay within allowed training rows. Reuse cached reference and CatBoost holdout predictions; no refitting old failed methods.",
+  "screening": "Require dev delta > .002 vs cached fixed reference; stop without outer validation if absent",
+  "history": "Historically reused development data is exploratory; no new Kaggle score."
+}

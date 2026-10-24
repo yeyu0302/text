@@ -1,0 +1,3 @@
+EBM FIT ebm_additive seconds 1.99
+EBM FIT ebm_pairs seconds 1.49
+EBM SCREEN [('ebm_additive', 0.6840685173606599, -0.003734537338954931), ('ebm_pairs', 0.6842230464532509, -0.003580008246363822)]

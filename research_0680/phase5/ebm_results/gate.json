@@ -1,0 +1,4 @@
+{
+  "promoted": false,
+  "reason": "Advance only if new screening gain > .002, otherwise stop without retraining"
+}
