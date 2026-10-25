@@ -1,0 +1,23 @@
+{
+  "files": [
+    {
+      "file": "submission_bagged_argmax_noquota.csv",
+      "source": "/workspace/attachments/09ae40a7-5589-44f6-9354-fa9d1b1ded4a/submission_bagged_argmax_noquota.csv",
+      "bytes": 34602,
+      "sha256": "bb482dd5e76b00023b5d9de79494c119520ae9908c05bc7a9ac1f5e0e69d4001"
+    },
+    {
+      "file": "v5_v11_test_probabilities.csv",
+      "source": "/workspace/attachments/e73dbbf0-f1a7-4199-949a-1faceb22c49a/v5_v11_test_probabilities.csv",
+      "bytes": 432635,
+      "sha256": "c572fd83a1d5f548d1fc49fbae5d6f1a3841eb6b45fdcf139f0aa656ce587992"
+    },
+    {
+      "file": "v5_v11_oof_probabilities.csv",
+      "source": "/workspace/attachments/b678d509-78be-458f-9b9b-e50561fadeb9/v5_v11_oof_probabilities.csv",
+      "bytes": 1308915,
+      "sha256": "1c9cfc3b7051dd483276f44be40e1fcf885ad06bb86b3c3793959ff9b8a77473"
+    }
+  ],
+  "user_reported_kaggle_score": 0.672
+}

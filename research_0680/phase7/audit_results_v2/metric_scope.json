@@ -1,0 +1,8 @@
+{
+  "user_reported_submission_kaggle_accuracy": 0.672,
+  "base_oof_fold_metadata_available": false,
+  "training_code_available": false,
+  "confidence_of_kaggle_above_068": "Not established",
+  "test_label_prior_known": false,
+  "strict_nested_meta_validation_possible_from_these_files": false
+}

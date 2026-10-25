@@ -1,0 +1,10 @@
+{
+  "source_small_village_fraction": 0.3514,
+  "source_uniform_class_reweighted_small_village_fraction": 0.40529758708782787,
+  "test_small_village_fraction": 0.4576470588235294,
+  "source_small_by_class": [
+    0.4864612511671335,
+    0.4721120186697783,
+    0.2573194914265718
+  ]
+}

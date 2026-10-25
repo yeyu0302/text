@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspace/text/research_0680/phase7/audit.py", line 148, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/text/research_0680/phase7/audit.py", line 144, in main
+    summary(x,y,test,a,b);calibration_audit(x,y,a);prior_audit(y,a,b);cached_comparisons(y,a,b);domain_audit(x,y,test)
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/text/research_0680/phase7/audit.py", line 76, in summary
+    part=y[mask];h=pred[mask];subgroup.append(dict(group=group,n=int(mask.sum()),level2_n=int(np.sum(part==1)),level2_recall=float(np.mean(h[part==1]==1)),level2_to1=int(np.sum((part==1)&(h==0))),level2_to3=int(np.sum((part==1)&(h==2))),**full_metrics(part,p[mask])))
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict() got multiple values for keyword argument 'level2_to1'

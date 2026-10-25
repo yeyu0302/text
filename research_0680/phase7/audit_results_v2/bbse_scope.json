@@ -1,0 +1,14 @@
+{
+  "assumptions": [
+    "label shift: class-conditional X distribution stable",
+    "source/test classifier and transformations match",
+    "confusion matrix invertible"
+  ],
+  "unverified": [
+    "Training implementation and original fold IDs",
+    "Fold versus full-fit target encoding consistency",
+    "Uniform test class prior"
+  ],
+  "bootstrap": "Conditional source-within-class and target row resampling; no fold scope matching possible from uploaded metadata; no retraining variance",
+  "action": "Diagnostic only; no BBSE submission correction"
+}

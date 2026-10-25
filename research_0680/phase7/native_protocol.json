@@ -1,0 +1,8 @@
+{
+  "registered_after": "User-uploaded probabilities, calibration diagnostics and 12 cached blend comparisons inspected; no native LightGBM result inspected yet",
+  "new_route": "Native categorical LightGBM geographic splits, no TE, no soft targets, no Wiener overwrite, no quota",
+  "classifier": {"objective":"multiclass","n_estimators":700,"learning_rate":0.035,"num_leaves":15,"max_depth":-1,"min_child_samples":40,"reg_lambda":15,"reg_alpha":0.1,"cat_smooth":20,"cat_l2":20,"min_data_per_group":20,"max_cat_to_onehot":4,"class_weight":"balanced","verbosity":-1,"n_jobs":4,"random_state":250125,"deterministic":true,"force_col_wise":true},
+  "screen": {"seed":847,"test_size":0.25,"cached_reference":"phase3/results/screen/probabilities.npz","description":"Same rows/fit subset as cached reference; previously used research screen, not independent confirmation","promote_if_delta_ba_exceeds":0.002},
+  "outer_if_promoted": {"seeds":[42,2026],"folds":5,"fixed_configuration":true,"no_outer_parameter_selection":true,"cached_reference":"results/00_baseline/fixed_baseline_seed{seed}","caveat":"These splits have been inspected in prior research; stability evidence, not an untouched lockbox"},
+  "export_gate": "Both outer deltas > .001 and paired bootstrap lower bounds > 0; source-code/probability consistency and target applicability must additionally be reviewed. No claim of guaranteed Kaggle > .680."
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "model": "v5",
+    "objective": "accuracy",
+    "changed_from_best679": 227,
+    "changed_from_argmax": 141
+  },
+  {
+    "model": "v5",
+    "objective": "log",
+    "changed_from_best679": 228,
+    "changed_from_argmax": 141
+  },
+  {
+    "model": "v11",
+    "objective": "accuracy",
+    "changed_from_best679": 229,
+    "changed_from_argmax": 128
+  },
+  {
+    "model": "v11",
+    "objective": "log",
+    "changed_from_best679": 233,
+    "changed_from_argmax": 128
+  },
+  {
+    "model": "bagged",
+    "objective": "accuracy",
+    "changed_from_best679": 219,
+    "changed_from_argmax": 127
+  },
+  {
+    "model": "bagged",
+    "objective": "log",
+    "changed_from_best679": 219,
+    "changed_from_argmax": 127
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "correctness_correlation": 0.9475535036992847,
+  "oof_disagreements": 424,
+  "test_disagreements": 138,
+  "id_ranges": {
+    "train": [
+      1,
+      15000
+    ],
+    "test": [
+      1,
+      5100
+    ]
+  },
+  "bagged_formula": ".65 * V5 + .35 * V11, within CSV rounding"
+}

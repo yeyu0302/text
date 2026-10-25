@@ -1,0 +1,11 @@
+{
+  "date_taipei": "2026-10-25",
+  "user_reported_kaggle_accuracy": 0.672,
+  "new_candidate_exported": false,
+  "confidence_above_068": "Not established",
+  "no_original_data_or_source_modified": true,
+  "native_screen_promoted": false,
+  "tests": "............                                                             [100%]\n12 passed in 1.09s",
+  "remaining_required_input": "Executable V5/V11 training and inference code/config with original fold metadata or means to reconstruct folds; matching original best submission provenance",
+  "strict_nested_claim": false
+}

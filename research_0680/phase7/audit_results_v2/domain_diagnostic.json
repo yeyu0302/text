@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "scope": "original_source",
+      "source_rows": 15000,
+      "target_rows": 5100,
+      "validation_rows": 6030,
+      "auc": 0.590164124909223,
+      "max_optimizer_iterations": 133
+    },
+    {
+      "scope": "class_balanced_source",
+      "source_rows": 6426,
+      "target_rows": 5100,
+      "validation_rows": 3458,
+      "auc": 0.5090537113877363,
+      "max_optimizer_iterations": 109
+    }
+  ],
+  "scope": "One fixed X-only logistic domain diagnostic; ID excluded, fold-local preprocessing; class-balanced source uses downsampling",
+  "limitation": "Near-chance AUC does not prove no shift; discrimination is not proof of TE mismatch or an actionable importance weight. No damage classifier fitted."
+}

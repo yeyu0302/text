@@ -1,0 +1,38 @@
+{
+  "source_small_by_class": [
+    0.4864612511671335,
+    0.4721120186697783,
+    0.2573194914265718
+  ],
+  "assumed_target_small_by_class": [
+    0.5424061009294802,
+    0.528103671627022,
+    0.30243140391408646
+  ],
+  "recall_by_class_large_small": [
+    [
+      0.7672727272727272,
+      0.7236084452975048
+    ],
+    [
+      0.5287356321839081,
+      0.6777063766683143
+    ],
+    [
+      0.789539814669389,
+      0.4342701722574796
+    ]
+  ],
+  "odds_shift": 0.22420111353648134,
+  "balanced_source_score": 0.6810734226938612,
+  "transported_score": 0.6776972338648317,
+  "delta": -0.0033761888290294584,
+  "target_small_fraction": 0.4576470588235294,
+  "assumptions": [
+    "Hypothetical target class prior fixed at 1/3",
+    "Sparse-group odds shift identical across classes",
+    "Class-and-group-conditional prediction recall is invariant"
+  ],
+  "scope": "Sensitivity calculation only: group defined by full source X counts for both populations; original base fold training counts and full-fit test scope unknown",
+  "limitations": "These assumptions are not established; value is not an independently validated estimate or Kaggle forecast. It explains why covariate prevalence must accompany a single OOF score. No candidate selected or exported."
+}

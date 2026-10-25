@@ -1,0 +1,1 @@
+Initial partial execution. Subgroup JSON construction duplicated a keyword and raised TypeError before calibration/domain steps. Corrected code was run into audit_results_v2 without overwriting these initial files. Use audit_results_v2 for final analysis.

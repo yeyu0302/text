@@ -1,0 +1,8 @@
+{
+  "changes_from_original_best": 250,
+  "changes_margin_le005": 139,
+  "changes_margin_le010": 207,
+  "changes_confidence_ge080": 0,
+  "mean_margin_changed": 0.057008816,
+  "hard_scores_cannot_identify_which_changes_are_errors": true
+}
