@@ -1,0 +1,13 @@
+{
+  "date_taipei": "2026-10-25",
+  "source_files_identical": true,
+  "provided_main_trains_models": false,
+  "actual_uploaded_probabilities_reproduced": false,
+  "bug_fixes_implemented": true,
+  "paired_probe_scope": "Single previously used holdout; not OOF or Kaggle",
+  "screen_passed": false,
+  "new_submission_exported": false,
+  "confidence_above_kaggle_068": "Not established",
+  "tests": "............                                                             [100%]\n12 passed in 1.24s",
+  "original_data_and_source_hashes_preserved": true
+}

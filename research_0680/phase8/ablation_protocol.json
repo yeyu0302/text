@@ -1,0 +1,13 @@
+{
+  "registered_before_probe_fit": true,
+  "scope": "New reconstructed low-cost paired ablation using supplied helpers; NOT a reproduction of uploaded V5/V11 or original 0.679",
+  "hypothesis": "Correct TE producer-name matching activates missing geographic hazard interactions",
+  "control": "Both variants repair clean_storey spelling and freeze normalization on fit rows; control retains zero hazard as the original name filter would produce",
+  "treatment": "Three predeclared geographic balanced TE pairs, fitted-training normalization and five active hazard/vulnerability features",
+  "features": "All supplied numeric base columns except raw geographic IDs; all balanced hierarchical TE triplets. First40 expansion order fixed by supplied feature builder. X-only category/region context fitted on training rows only. No seismic residual model, KNN, BLUP, Plan B, MLP or tree ensembles.",
+  "inner_te": {"folds":5,"seed":42,"method":"Supplied stratified round-robin indices; outer labels never supplied"},
+  "model": {"C":0.04,"max_iter":300,"prior":"Source training prior correction exactly once after softmax, as supplied"},
+  "screen": {"seed":847,"holdout_fraction":0.25,"promote_if_delta_ba_gt":0.002,"require_both_optimizers_converged":true,"scope":"Previously used research holdout; exploratory screen, not independent confirmation"},
+  "outer_if_screen_passes": {"seeds":[42,2026],"folds":5,"model_selection":"No outer hyperparameter selection; fixed paired algorithms","scope":"Stability comparison on previously inspected source data; not an untouched lockbox"},
+  "export": "Only if both outer paired deltas > .001, paired bootstrap lower bounds > 0, both treatment BA > .680, all optimizers converged; report full uncertainty and no guarantee of Kaggle score"
+}

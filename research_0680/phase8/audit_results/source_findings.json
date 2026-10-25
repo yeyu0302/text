@@ -1,0 +1,26 @@
+{
+  "main_call_names": [
+    "json.load",
+    "len",
+    "open",
+    "os.path.abspath",
+    "os.path.dirname",
+    "os.path.exists",
+    "os.path.join",
+    "pd.read_csv",
+    "print"
+  ],
+  "base_shape": [
+    20100,
+    176
+  ],
+  "schema_error": "'clean_storeys'",
+  "te_feature_count": 160,
+  "original_geographic_matches": [],
+  "original_typeA_nonzero": 0,
+  "original_typeB_nonzero": 0,
+  "fixed_typeA_nonzero": 626,
+  "fixed_typeB_nonzero": 773,
+  "planB_oof_max_change": 0.0,
+  "planB_test_max_change": 0.4053412214723827
+}
